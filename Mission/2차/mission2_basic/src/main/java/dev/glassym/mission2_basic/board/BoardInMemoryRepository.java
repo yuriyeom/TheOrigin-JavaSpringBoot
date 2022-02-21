@@ -1,5 +1,7 @@
 package dev.glassym.mission2_basic.board;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -33,7 +35,11 @@ public class BoardInMemoryRepository implements BoardRepository{
     public boolean update(int id, BoardDto boardDto) {
         BoardDto targetBoard = this.boardList.get(id);
 
-        this.boardList.set(id, boardDto);
+        if(boardDto.getName() != null){
+            targetBoard.setName(boardDto.getName());
+        }
+
+        this.boardList.set(id, targetBoard);
         return true;
     }
 

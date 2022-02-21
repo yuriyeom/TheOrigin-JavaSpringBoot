@@ -1,5 +1,6 @@
 package dev.glassym.mission2_basic.board;
 
+
 public class BoardDto {
     private int id;
     private String name;
