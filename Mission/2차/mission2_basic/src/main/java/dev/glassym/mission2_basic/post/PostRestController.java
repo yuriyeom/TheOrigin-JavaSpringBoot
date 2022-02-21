@@ -1,5 +1,7 @@
 package dev.glassym.mission2_basic.post;
 
+import dev.glassym.mission2_basic.board.BoardRestController;
+import dev.glassym.mission2_basic.board.BoardService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("post")
+@RequestMapping("/board/*/post")
 public class PostRestController {
     private static final Logger logger = LoggerFactory.getLogger(PostRestController.class);
     private final PostService postService;
