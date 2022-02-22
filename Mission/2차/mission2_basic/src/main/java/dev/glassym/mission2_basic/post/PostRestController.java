@@ -34,22 +34,36 @@ public class PostRestController {
         this.postService.createPost(postDto);
     }
 
-    // GET http://localhost:8080/board/post
-    @GetMapping("post")
+    // GET http://localhost:8080/board/0/post
+    @GetMapping("{boardId}/post")
+    public List<PostDto> readPostByBoard(@PathVariable int boardId){
+        List<PostDto> result = new ArrayList<>();
+        List<PostDto> postDtoList = this.postService.readPostAll();
+        for(PostDto post: postDtoList){
+            if(post.getBoardId() == boardId){
+                result.add(post);
+            }
+        }
+        return result;
+    }
+
+    // GET http://localhost:8080/board/all/post
+    @GetMapping("all/post")
     public List<PostDto> readPostAll(){
         logger.info("read post all");
         return this.postService.readPostAll();
     }
 
-    // GET http://localhost:8080/board/post/0
-    @GetMapping("post/{id}")
+
+    // GET http://localhost:8080/board/all/post/0
+    @GetMapping("all/post/{id}")
     public PostDto readPost(@PathVariable int id){
         logger.info("read post one");
         return this.postService.readPost(id);
     }
 
-    // PUT http://localhost:8080/board/post/0
-    @PutMapping("post/{id}")
+    // PUT http://localhost:8080/board/all/post/0
+    @PutMapping("all/post/{id}")
     public void updatePost(
             @PathVariable int id,
             @RequestBody PostDto postDto){
@@ -58,8 +72,8 @@ public class PostRestController {
         this.postService.updatePost(id, postDto);
     }
 
-    // DELETE http://localhost:8080/board/post/0
-    @DeleteMapping("post/{id}")
+    // DELETE http://localhost:8080/board/all/post/0
+    @DeleteMapping("all/post/{id}")
     public void deletePost(
             @PathVariable int id,
             @RequestBody Map<String, String> param){
