@@ -4,24 +4,24 @@
 ### Basic
 
 - **Board Create**  
-![BoardCreate](https://user-images.githubusercontent.com/43941336/155075621-01a2446c-7b43-4915-b649-02a8190303ed.png)   
+![BoardCreate](https://user-images.githubusercontent.com/43941336/155078940-538580d4-33f8-4760-b98e-aa1b51390fbb.png)   
    
 - **Board Read All**  
-![BoardReadAll](https://user-images.githubusercontent.com/43941336/155075917-dfa8d98b-6d1e-4f2b-b28f-a41317e7f3c0.png)
+![BoardReadAll](https://user-images.githubusercontent.com/43941336/155078972-eaca7247-a913-4995-bbc8-663304072559.png)   
    
 - **Board Read One**  
-![BoardReadOne](https://user-images.githubusercontent.com/43941336/155075939-9772a7fa-289a-4401-89f4-3769e2e4164d.png)
+![BoardReadOne](https://user-images.githubusercontent.com/43941336/155078996-d21d6264-e92e-4bf8-b244-2c533540c45a.png)   
    
 - **Board Update**  
-![BoardUpdate](https://user-images.githubusercontent.com/43941336/155075953-32d56679-3c13-4e34-90fc-dd5a086d5652.png)   
+![BoardUpdate](https://user-images.githubusercontent.com/43941336/155079009-6dc32866-464b-4750-8418-15fad266771a.png)   
    
   Update 후 Read   
-![BoardUpdate2](https://user-images.githubusercontent.com/43941336/155077434-917305d0-6472-4786-90d3-87389fd7e4f3.png)      
+![BoardUpdate2](https://user-images.githubusercontent.com/43941336/155079030-22df27b3-37b9-4c6a-b72a-f9aa9fca79c0.png)    
 - **Board Delete**   
-![BoardDelete](https://user-images.githubusercontent.com/43941336/155075975-2d08e538-af53-49ad-aac0-f2c678489c74.png)   
+![BoardDelete](https://user-images.githubusercontent.com/43941336/155079059-d56111e7-5cf2-439f-aab4-38d06102006d.png)   
    
   Delete 후 Read   
-  ![BoardDelete2](https://user-images.githubusercontent.com/43941336/155075993-897718d2-7d99-4fdf-9f67-f97a19faee08.png)   
+  ![BoardDelete2](https://user-images.githubusercontent.com/43941336/155079089-0df4a05c-6219-406a-8484-5da051802af0.png)   
 - **Post Create**  
 ![PostCreate](https://user-images.githubusercontent.com/43941336/155077141-0e4c0feb-5c02-4c8c-8b4d-30bc372c4445.png)       
 - **Post Read All**   
