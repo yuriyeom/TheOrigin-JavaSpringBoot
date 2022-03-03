@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: test
+# application-[프로파일명].yml로 파일을 만들 수 있다.
+# 자기 파일 내에서 해당 프로파일이 없으면 리소스 폴더에서 찾는다.
+
+# 외부 API에 사용
+custom:
+  property:
+    single: custom-property
+    comlist: comma,sparated,list,to,value
+
