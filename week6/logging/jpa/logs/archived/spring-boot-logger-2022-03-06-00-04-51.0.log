@@ -1,0 +1,586 @@
+2022-03-06 00:04:51,005 TRACE RepositoryConfigurationDelegate [main] Spring Data JPA - Registering repository: postRepository - Interface: dev.glassym.jpa.repository.PostRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-03-06 00:04:51,024 TRACE RepositoryConfigurationDelegate [main] Spring Data JPA - Registering repository: boardRepository - Interface: dev.glassym.jpa.repository.BoardRepository - Factory: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean
+2022-03-06 00:04:51,026 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 149 ms. Found 2 JPA repository interfaces.
+2022-03-06 00:04:51,027 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration matched due to @ConditionalOnClass found required class 'com.google.gson.Gson'
+2022-03-06 00:04:51,027 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,031 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration'
+2022-03-06 00:04:51,035 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration#gsonBuilder matched due to @ConditionalOnMissingBean (types: com.google.gson.GsonBuilder; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,035 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,036 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration.gsonBuilder()
+2022-03-06 00:04:51,038 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration#gson did not match due to @ConditionalOnMissingBean (types: com.google.gson.Gson; SearchStrategy: all) found beans of type 'com.google.gson.Gson' gson
+2022-03-06 00:04:51,038 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,038 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration.standardGsonBuilderCustomizer()
+2022-03-06 00:04:51,039 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter'
+2022-03-06 00:04:51,039 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,039 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter'
+2022-03-06 00:04:51,039 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,039 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+2022-03-06 00:04:51,041 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched due to @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,042 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,042 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration.stringHttpMessageConverter()
+2022-03-06 00:04:51,043 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration matched due to @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper'
+2022-03-06 00:04:51,043 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,044 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration matched due to @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jackson) matched
+2022-03-06 00:04:51,044 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,049 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration matched due to @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper'
+2022-03-06 00:04:51,050 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,050 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+2022-03-06 00:04:51,052 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched due to @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,052 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,053 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration.mappingJackson2HttpMessageConverter()
+2022-03-06 00:04:51,053 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration'
+2022-03-06 00:04:51,053 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration matched due to @ConditionalOnClass found required class 'com.google.gson.Gson'
+2022-03-06 00:04:51,053 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,059 TRACE SpringBootCondition [main] Condition GsonHttpMessageConvertersConfiguration.PreferGsonOrJacksonAndJsonbUnavailableCondition on org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration$GsonHttpMessageConverterConfiguration did not match due to AnyNestedCondition 0 matched 2 did not; NestedCondition on GsonHttpMessageConvertersConfiguration.PreferGsonOrJacksonAndJsonbUnavailableCondition.JacksonJsonbUnavailable NoneNestedConditions 1 matched 1 did not; NestedCondition on GsonHttpMessageConvertersConfiguration.JacksonAndJsonbUnavailableCondition.JsonbPreferred @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jsonb) did not find property 'spring.mvc.converters.preferred-json-mapper'; NestedCondition on GsonHttpMessageConvertersConfiguration.JacksonAndJsonbUnavailableCondition.JacksonAvailable @ConditionalOnBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter; SearchStrategy: all) found bean 'mappingJackson2HttpMessageConverter'; NestedCondition on GsonHttpMessageConvertersConfiguration.PreferGsonOrJacksonAndJsonbUnavailableCondition.GsonPreferred @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=gson) did not find property 'spring.mvc.converters.preferred-json-mapper'
+2022-03-06 00:04:51,060 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,060 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration'
+2022-03-06 00:04:51,065 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+2022-03-06 00:04:51,067 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration#messageConverters matched due to @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,067 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,067 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration.messageConverters()
+2022-03-06 00:04:51,067 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration matched due to @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'
+2022-03-06 00:04:51,067 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,068 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:51,068 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,068 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,068 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,069 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar'
+2022-03-06 00:04:51,069 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.data.web.config.ProjectingArgumentResolverRegistrar.projectingArgumentResolverBeanPostProcessor()
+2022-03-06 00:04:51,069 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.data.web.config.SpringDataWebConfiguration'
+2022-03-06 00:04:51,069 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.data.web.config.SpringDataWebConfiguration.pageableResolver()
+2022-03-06 00:04:51,069 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.data.web.config.SpringDataWebConfiguration.sortResolver()
+2022-03-06 00:04:51,069 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.data.web.config.SpringDataJacksonConfiguration'
+2022-03-06 00:04:51,070 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.data.web.config.SpringDataJacksonConfiguration.jacksonGeoModule()
+2022-03-06 00:04:51,071 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration'
+2022-03-06 00:04:51,083 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration#pageableCustomizer matched due to @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,084 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,084 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration.pageableCustomizer()
+2022-03-06 00:04:51,085 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration#sortCustomizer matched due to @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,085 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,085 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration.sortCustomizer()
+2022-03-06 00:04:51,086 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration'
+2022-03-06 00:04:51,089 TRACE SpringBootCondition [main] Condition ProjectInfoAutoConfiguration.GitResourceAvailableCondition on org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration#gitProperties did not match due to GitResource did not find git info at classpath:git.properties
+2022-03-06 00:04:51,089 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,090 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'configurationProperties'
+2022-03-06 00:04:51,090 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'servletConfigInitParams'
+2022-03-06 00:04:51,090 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'servletContextInitParams'
+2022-03-06 00:04:51,091 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'systemProperties'
+2022-03-06 00:04:51,091 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'systemEnvironment'
+2022-03-06 00:04:51,091 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'random'
+2022-03-06 00:04:51,091 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'Config resource 'class path resource [application-test.yml]' via location 'optional:classpath:/''
+2022-03-06 00:04:51,091 TRACE PropertySourcesPropertyResolver [main] Searching for key 'spring.info.build.location:classpath:META-INF/build-info.properties' in PropertySource 'Config resource 'class path resource [application.yml]' via location 'optional:classpath:/''
+2022-03-06 00:04:51,091 TRACE PropertySourcesPropertyResolver [main] Could not find key 'spring.info.build.location:classpath:META-INF/build-info.properties' in any property source
+2022-03-06 00:04:51,091 TRACE PropertyPlaceholderHelper [main] Resolved placeholder 'spring.info.build.location:classpath:META-INF/build-info.properties'
+2022-03-06 00:04:51,092 TRACE SpringBootCondition [main] Condition OnResourceCondition on org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration#buildProperties did not match due to @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}'
+2022-03-06 00:04:51,092 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,093 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate'
+2022-03-06 00:04:51,093 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,094 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+2022-03-06 00:04:51,094 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,100 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,100 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,101 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration'
+2022-03-06 00:04:51,101 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration.jdbcTemplate()
+2022-03-06 00:04:51,106 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration matched due to @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a primary bean from beans 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,106 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,107 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration matched due to @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a primary bean from beans 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,107 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,108 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration'
+2022-03-06 00:04:51,108 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration.namedParameterJdbcTemplate()
+2022-03-06 00:04:51,109 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration'
+2022-03-06 00:04:51,110 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration matched due to @ConditionalOnProperty (spring.sql.init.enabled) matched
+2022-03-06 00:04:51,110 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,117 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,117 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,117 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator'
+2022-03-06 00:04:51,117 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,118 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,118 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,119 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,119 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,120 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration'
+2022-03-06 00:04:51,120 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration.dataSourceScriptDatabaseInitializer()
+2022-03-06 00:04:51,122 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration'
+2022-03-06 00:04:51,122 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler'
+2022-03-06 00:04:51,123 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,123 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration'
+2022-03-06 00:04:51,124 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration#taskScheduler did not match due to @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor
+2022-03-06 00:04:51,124 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,124 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration.scheduledBeanLazyInitializationExcludeFilter()
+2022-03-06 00:04:51,128 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration#taskSchedulerBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,129 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,129 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration.taskSchedulerBuilder()
+2022-03-06 00:04:51,130 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration matched due to @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager'
+2022-03-06 00:04:51,130 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,132 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+2022-03-06 00:04:51,132 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,132 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration'
+2022-03-06 00:04:51,134 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration#transactionManager did not match due to @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager
+2022-03-06 00:04:51,134 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,135 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 82
+2022-03-06 00:04:51,135 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration'
+2022-03-06 00:04:51,135 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,135 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager'
+2022-03-06 00:04:51,135 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,135 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,135 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,136 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIJRMPServerImpl[7a0d181d:17f5a9c890d:-7fff, 1049382363742932458]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+2022-03-06 00:04:51,136 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new client
+2022-03-06 00:04:51,136 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] no subject
+2022-03-06 00:04:51,136 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  6
+2022-03-06 00:04:51,136 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new connection: rmi://172.18.192.1  6
+2022-03-06 00:04:51,136 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Creates a new ServerCommunicatorAdmin object with the timeout 120000
+2022-03-06 00:04:51,137 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Admin: timeout=120000
+2022-03-06 00:04:51,137 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@19a872ea: connectionId=rmi://172.18.192.1  6
+2022-03-06 00:04:51,137 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Admin: Timestamp=1646492691137
+2022-03-06 00:04:51,138 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Admin: remaining timeout=119999
+2022-03-06 00:04:51,138 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add object [7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954]
+2022-03-06 00:04:51,138 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Waiting with timeout: 119999 ms remaining
+2022-03-06 00:04:51,138 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration matched due to @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,138 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] new connection done: rmi://172.18.192.1  6
+2022-03-06 00:04:51,138 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,138 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,139 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,139 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,139 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,139 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration matched due to @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,140 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2022-03-06 00:04:51,140 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,140 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,140 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:51,140 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration matched due to @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched
+2022-03-06 00:04:51,140 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,140 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:51,141 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:51,141 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-03-06 00:04:51,141 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.org.springframework.transaction.config.internalTransactionAdvisor()
+2022-03-06 00:04:51,141 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,141 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.transactionAttributeSource()
+2022-03-06 00:04:51,141 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,142 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.transactionInterceptor()
+2022-03-06 00:04:51,142 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:51,142 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration.org.springframework.transaction.config.internalTransactionalEventListenerFactory()
+2022-03-06 00:04:51,142 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration'
+2022-03-06 00:04:51,142 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,143 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,143 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:51,143 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,144 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration'
+2022-03-06 00:04:51,144 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2022-03-06 00:04:51,144 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2022-03-06 00:04:51,144 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2022-03-06 00:04:51,144 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,145 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,145 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2022-03-06 00:04:51,146 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,148 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:51,148 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2022-03-06 00:04:51,149 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2022-03-06 00:04:51,150 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2022-03-06 00:04:51,150 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:51,151 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, duration = 600000
+2022-03-06 00:04:51,151 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add to dirty set: 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:51,152 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,153 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 84
+2022-03-06 00:04:51,154 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,154 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,154 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,154 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+2022-03-06 00:04:51,154 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,155 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,155 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,155 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,155 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2022-03-06 00:04:51,156 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "javax.management.ObjectName", codebase = ""
+2022-03-06 00:04:51,156 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc)
+2022-03-06 00:04:51,156 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2022-03-06 00:04:51,156 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  6, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Receive a new request.
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] name = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Finish a request.
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Admin: Timestamp=1646492691157
+2022-03-06 00:04:51,157 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Admin: elapsed=0
+2022-03-06 00:04:51,158 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Admin: remaining timeout=119999
+2022-03-06 00:04:51,158 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Waiting with timeout: 119999 ms remaining
+2022-03-06 00:04:51,158 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-06 00:04:51,158 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,160 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,160 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,160 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,160 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+2022-03-06 00:04:51,160 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@19a872ea: connectionId=rmi://172.18.192.1  6] closing.
+2022-03-06 00:04:51,161 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] terminate the ServerCommunicatorAdmin object.
+2022-03-06 00:04:51,161 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 31] Admin: elapsed=4
+2022-03-06 00:04:51,161 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] client=javax.management.remote.rmi.RMIConnectionImpl@19a872ea: connectionId=rmi://172.18.192.1  6
+2022-03-06 00:04:51,162 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] closing client.
+2022-03-06 00:04:51,162 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration matched due to @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary bean from beans 'transactionManager'
+2022-03-06 00:04:51,162 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,162 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: remove object [7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954]
+2022-03-06 00:04:51,163 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration'
+2022-03-06 00:04:51,163 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] sending notif
+2022-03-06 00:04:51,163 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] done
+2022-03-06 00:04:51,164 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@19a872ea: connectionId=rmi://172.18.192.1  6] closed.
+2022-03-06 00:04:51,164 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,167 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration#transactionTemplate matched due to @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,167 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,168 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration.transactionTemplate()
+2022-03-06 00:04:51,170 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration'
+2022-03-06 00:04:51,174 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration#platformTransactionManagerCustomizers matched due to @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,175 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,175 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.platformTransactionManagerCustomizers()
+2022-03-06 00:04:51,177 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration#transactionalOperator did not match due to @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,178 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,180 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate'
+2022-03-06 00:04:51,180 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,181 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration'
+2022-03-06 00:04:51,184 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration#restTemplateBuilderConfigurer matched due to @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,184 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,184 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilderConfigurer()
+2022-03-06 00:04:51,187 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration#restTemplateBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,187 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,187 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration.restTemplateBuilder()
+2022-03-06 00:04:51,188 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration matched due to @ConditionalOnWebApplication (required) found 'session' scope
+2022-03-06 00:04:51,188 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,188 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration matched due to @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol'
+2022-03-06 00:04:51,188 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,189 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration'
+2022-03-06 00:04:51,189 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration.tomcatWebServerFactoryCustomizer()
+2022-03-06 00:04:51,189 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration'
+2022-03-06 00:04:51,190 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter'
+2022-03-06 00:04:51,190 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,190 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:51,190 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,191 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnProperty (server.servlet.encoding.enabled) matched
+2022-03-06 00:04:51,191 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,191 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration'
+2022-03-06 00:04:51,201 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration#characterEncodingFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,201 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,202 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.characterEncodingFilter()
+2022-03-06 00:04:51,203 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.localeCharsetMappingsCustomizer()
+2022-03-06 00:04:51,204 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement'
+2022-03-06 00:04:51,204 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,204 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:51,204 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,204 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnProperty (spring.servlet.multipart.enabled) matched
+2022-03-06 00:04:51,205 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,206 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration'
+2022-03-06 00:04:51,210 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration#multipartConfigElement matched due to @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement,org.springframework.web.multipart.commons.CommonsMultipartResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,210 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,210 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration.multipartConfigElement()
+2022-03-06 00:04:51,216 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration#multipartResolver matched due to @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:51,217 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:51,217 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration.multipartResolver()
+2022-03-06 00:04:51,540 TRACE ConfigurationClassEnhancer [main] Successfully enhanced dev.glassym.jpa.JpaApplication; enhanced class name is: dev.glassym.jpa.JpaApplication$$EnhancerBySpringCGLIB$$b679df3c
+2022-03-06 00:04:51,540 TRACE ConfigurationClassPostProcessor [main] Replacing bean definition 'jpaApplication' existing class 'dev.glassym.jpa.JpaApplication' with enhanced class 'dev.glassym.jpa.JpaApplication$$EnhancerBySpringCGLIB$$b679df3c'
+2022-03-06 00:04:51,547 TRACE ConfigurationClassEnhancer [main] Successfully enhanced dev.glassym.jpa.DemoConfig; enhanced class name is: dev.glassym.jpa.DemoConfig$$EnhancerBySpringCGLIB$$731b72cc
+2022-03-06 00:04:51,548 TRACE ConfigurationClassPostProcessor [main] Replacing bean definition 'demoConfig' existing class 'dev.glassym.jpa.DemoConfig' with enhanced class 'dev.glassym.jpa.DemoConfig$$EnhancerBySpringCGLIB$$731b72cc'
+2022-03-06 00:04:51,551 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2022-03-06 00:04:51,552 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2022-03-06 00:04:51,556 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'propertySourcesPlaceholderConfigurer' to allow for resolving potential circular references
+2022-03-06 00:04:51,557 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2022-03-06 00:04:51,563 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-03-06 00:04:51,564 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-03-06 00:04:51,564 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'emBeanDefinitionRegistrarPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,565 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'emBeanDefinitionRegistrarPostProcessor'
+2022-03-06 00:04:51,565 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2022-03-06 00:04:51,565 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2022-03-06 00:04:51,565 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,565 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor'
+2022-03-06 00:04:51,651 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-03-06 00:04:51,651 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-03-06 00:04:51,653 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,653 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2022-03-06 00:04:51,654 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor'
+2022-03-06 00:04:51,654 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor'
+2022-03-06 00:04:51,654 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,654 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor'
+2022-03-06 00:04:51,654 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+2022-03-06 00:04:51,655 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'preserveErrorControllerTargetClassPostProcessor'
+2022-03-06 00:04:51,655 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'preserveErrorControllerTargetClassPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,655 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'preserveErrorControllerTargetClassPostProcessor'
+2022-03-06 00:04:51,656 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-03-06 00:04:51,656 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-03-06 00:04:51,656 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2022-03-06 00:04:51,656 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2022-03-06 00:04:51,656 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-03-06 00:04:51,657 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-03-06 00:04:51,657 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory' to allow for resolving potential circular references
+2022-03-06 00:04:51,657 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2022-03-06 00:04:51,661 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-03-06 00:04:51,661 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-03-06 00:04:51,665 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,665 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2022-03-06 00:04:51,666 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2022-03-06 00:04:51,666 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2022-03-06 00:04:51,671 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,671 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2022-03-06 00:04:51,671 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-03-06 00:04:51,672 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-03-06 00:04:51,672 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,672 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2022-03-06 00:04:51,672 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-03-06 00:04:51,672 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-03-06 00:04:51,672 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,673 TRACE AbstractAutowireCapableBeanFactory [main] Invoking afterPropertiesSet() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-03-06 00:04:51,673 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2022-03-06 00:04:51,673 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2022-03-06 00:04:51,673 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2022-03-06 00:04:51,673 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2022-03-06 00:04:51,673 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory' to allow for resolving potential circular references
+2022-03-06 00:04:51,673 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinderFactory'
+2022-03-06 00:04:51,674 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2022-03-06 00:04:51,677 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 82
+2022-03-06 00:04:51,677 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder' to allow for resolving potential circular references
+2022-03-06 00:04:51,677 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.boot.context.internalConfigurationPropertiesBinder'
+2022-03-06 00:04:51,677 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2022-03-06 00:04:51,677 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,677 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,678 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,678 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIJRMPServerImpl[7a0d181d:17f5a9c890d:-7fff, 1049382363742932458]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+2022-03-06 00:04:51,678 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-03-06 00:04:51,678 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new client
+2022-03-06 00:04:51,679 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] no subject
+2022-03-06 00:04:51,679 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  7
+2022-03-06 00:04:51,679 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-03-06 00:04:51,679 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new connection: rmi://172.18.192.1  7
+2022-03-06 00:04:51,680 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Creates a new ServerCommunicatorAdmin object with the timeout 120000
+2022-03-06 00:04:51,681 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@1e8e77dc: connectionId=rmi://172.18.192.1  7
+2022-03-06 00:04:51,682 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add object [7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045]
+2022-03-06 00:04:51,682 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] new connection done: rmi://172.18.192.1  7
+2022-03-06 00:04:51,683 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,685 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Admin: timeout=120000
+2022-03-06 00:04:51,685 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,685 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,685 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,686 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2022-03-06 00:04:51,686 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,686 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:51,686 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:51,687 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:51,685 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Admin: Timestamp=1646492691685
+2022-03-06 00:04:51,687 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,687 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Admin: remaining timeout=119998
+2022-03-06 00:04:51,687 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,688 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:51,688 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,688 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,689 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:51,689 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Waiting with timeout: 119998 ms remaining
+2022-03-06 00:04:51,689 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,690 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2022-03-06 00:04:51,690 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2022-03-06 00:04:51,690 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2022-03-06 00:04:51,691 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,691 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,691 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2022-03-06 00:04:51,692 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,692 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:51,692 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2022-03-06 00:04:51,693 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2022-03-06 00:04:51,693 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2022-03-06 00:04:51,693 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:51,694 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, duration = 600000
+2022-03-06 00:04:51,694 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add to dirty set: 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:51,694 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,695 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 84
+2022-03-06 00:04:51,696 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,697 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,697 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,698 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+2022-03-06 00:04:51,698 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,699 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,699 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,700 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,700 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2022-03-06 00:04:51,700 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "javax.management.ObjectName", codebase = ""
+2022-03-06 00:04:51,701 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc)
+2022-03-06 00:04:51,701 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2022-03-06 00:04:51,701 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  7, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-03-06 00:04:51,701 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Receive a new request.
+2022-03-06 00:04:51,701 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:51,701 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] name = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:51,702 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+2022-03-06 00:04:51,702 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Finish a request.
+2022-03-06 00:04:51,702 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Admin: Timestamp=1646492691702
+2022-03-06 00:04:51,702 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Admin: elapsed=0
+2022-03-06 00:04:51,702 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Admin: remaining timeout=120000
+2022-03-06 00:04:51,702 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-06 00:04:51,702 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Waiting with timeout: 120000 ms remaining
+2022-03-06 00:04:51,703 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,704 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,705 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,705 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,705 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+2022-03-06 00:04:51,719 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@1e8e77dc: connectionId=rmi://172.18.192.1  7] closing.
+2022-03-06 00:04:51,719 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] terminate the ServerCommunicatorAdmin object.
+2022-03-06 00:04:51,720 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] client=javax.management.remote.rmi.RMIConnectionImpl@1e8e77dc: connectionId=rmi://172.18.192.1  7
+2022-03-06 00:04:51,720 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] closing client.
+2022-03-06 00:04:51,721 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: remove object [7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045]
+2022-03-06 00:04:51,721 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] sending notif
+2022-03-06 00:04:51,722 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] done
+2022-03-06 00:04:51,722 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@1e8e77dc: connectionId=rmi://172.18.192.1  7] closed.
+2022-03-06 00:04:51,721 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 32] Admin: elapsed=19
+2022-03-06 00:04:51,722 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,734 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+2022-03-06 00:04:51,739 TRACE CachedIntrospectionResults [main] Getting BeanInfo for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator]
+2022-03-06 00:04:51,747 TRACE CachedIntrospectionResults [main] Caching PropertyDescriptors for class [org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator]
+2022-03-06 00:04:51,748 TRACE CachedIntrospectionResults [main] Found bean property 'advisorAdapterRegistry' of type [org.springframework.aop.framework.adapter.AdvisorAdapterRegistry]
+2022-03-06 00:04:51,748 TRACE CachedIntrospectionResults [main] Found bean property 'applyCommonInterceptorsFirst' of type [boolean]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'aspectJAdvisorFactory' of type [org.springframework.aop.aspectj.annotation.AspectJAdvisorFactory]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'class' of type [java.lang.Class]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'customTargetSourceCreators' of type [[Lorg.springframework.aop.framework.autoproxy.TargetSourceCreator;]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'exposeProxy' of type [boolean]
+2022-03-06 00:04:51,749 TRACE CachedIntrospectionResults [main] Found bean property 'frozen' of type [boolean]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'includePatterns' of type [java.util.List]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'interceptorNames' of type [[Ljava.lang.String;]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'opaque' of type [boolean]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'optimize' of type [boolean]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'order' of type [int]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'proxyClassLoader' of type [java.lang.ClassLoader]
+2022-03-06 00:04:51,750 TRACE CachedIntrospectionResults [main] Found bean property 'proxyTargetClass' of type [boolean]
+2022-03-06 00:04:51,776 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2022-03-06 00:04:51,776 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'persistenceExceptionTranslationPostProcessor'
+2022-03-06 00:04:51,776 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'persistenceExceptionTranslationPostProcessor'
+2022-03-06 00:04:51,792 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 82
+2022-03-06 00:04:51,793 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:51,793 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:51,794 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:51,794 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: void clean(java.rmi.server.ObjID[], long, java.rmi.dgc.VMID, boolean)]
+2022-03-06 00:04:51,794 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,795 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:51,796 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:51,796 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 3, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:51,797 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,798 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,798 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:51,798 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,799 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,799 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:51,799 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 10, depth: 2, bytes: 255, ex: n/a
+2022-03-06 00:04:51,800 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 11, depth: 3, bytes: 269, ex: n/a
+2022-03-06 00:04:51,801 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 12, depth: 2, bytes: 289, ex: n/a
+2022-03-06 00:04:51,801 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 3, bytes: 303, ex: n/a
+2022-03-06 00:04:51,802 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 14, depth: 1, bytes: 382, ex: n/a
+2022-03-06 00:04:51,802 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,802 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:51,803 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 15, depth: 1, bytes: 383, ex: n/a
+2022-03-06 00:04:51,803 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:51,804 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:51,805 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 18, depth: 2, bytes: 403, ex: n/a
+2022-03-06 00:04:51,806 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 19, depth: 2, bytes: 409, ex: n/a
+2022-03-06 00:04:51,807 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 20, depth: 2, bytes: 423, ex: n/a
+2022-03-06 00:04:51,807 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, strong = false
+2022-03-06 00:04:51,808 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fdd, -2803243788270857954], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, strong = false
+2022-03-06 00:04:51,808 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fd7, 3439118226905294045], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, strong = false
+2022-03-06 00:04:51,808 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:51,840 TRACE TypeConverterDelegate [main] Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@7f5538a1]
+2022-03-06 00:04:51,842 TRACE TypeConverterDelegate [main] Converting String to [class java.lang.Class] using property editor [org.springframework.beans.propertyeditors.ClassEditor@79a04e5f]
+2022-03-06 00:04:51,845 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'environment'
+2022-03-06 00:04:51,853 DEBUG ConstructorResolver [main] Autowiring by type from bean name 'persistenceExceptionTranslationPostProcessor' via factory method to bean named 'environment'
+2022-03-06 00:04:51,855 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'persistenceExceptionTranslationPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,860 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'persistenceExceptionTranslationPostProcessor'
+2022-03-06 00:04:51,861 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'webServerFactoryCustomizerBeanPostProcessor'
+2022-03-06 00:04:51,861 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'webServerFactoryCustomizerBeanPostProcessor'
+2022-03-06 00:04:51,861 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'webServerFactoryCustomizerBeanPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,865 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'webServerFactoryCustomizerBeanPostProcessor'
+2022-03-06 00:04:51,865 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'errorPageRegistrarBeanPostProcessor'
+2022-03-06 00:04:51,865 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'errorPageRegistrarBeanPostProcessor'
+2022-03-06 00:04:51,866 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'errorPageRegistrarBeanPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,869 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'errorPageRegistrarBeanPostProcessor'
+2022-03-06 00:04:51,870 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'projectingArgumentResolverBeanPostProcessor'
+2022-03-06 00:04:51,870 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'projectingArgumentResolverBeanPostProcessor'
+2022-03-06 00:04:51,872 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,872 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,872 TRACE AbstractAutoProxyCreator [main] Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor]
+2022-03-06 00:04:51,873 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-03-06 00:04:51,873 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-03-06 00:04:51,873 TRACE BeanFactoryAdvisorRetrievalHelper [main] Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,884 TRACE CachedIntrospectionResults [main] Getting BeanInfo for class [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration]
+2022-03-06 00:04:51,889 TRACE CachedIntrospectionResults [main] Caching PropertyDescriptors for class [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration]
+2022-03-06 00:04:51,890 TRACE CachedIntrospectionResults [main] Found bean property 'class' of type [java.lang.Class]
+2022-03-06 00:04:51,890 TRACE CachedIntrospectionResults [main] Found bean property 'importMetadata' of type [org.springframework.core.type.AnnotationMetadata]
+2022-03-06 00:04:51,902 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' to allow for resolving potential circular references
+2022-03-06 00:04:51,908 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry'
+2022-03-06 00:04:51,909 TRACE BeanFactoryAdvisorRetrievalHelper [main] Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,909 TRACE BeanFactoryAdvisorRetrievalHelper [main] Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,917 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-03-06 00:04:51,919 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'transactionAttributeSource'
+2022-03-06 00:04:51,919 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'transactionAttributeSource'
+2022-03-06 00:04:51,919 TRACE BeanFactoryAdvisorRetrievalHelper [main] Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,919 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-03-06 00:04:51,933 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'transactionAttributeSource' to allow for resolving potential circular references
+2022-03-06 00:04:51,933 TRACE BeanFactoryAdvisorRetrievalHelper [main] Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,933 TRACE BeanFactoryAdvisorRetrievalHelper [main] Skipping currently created advisor 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,934 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'transactionAttributeSource'
+2022-03-06 00:04:51,935 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'transactionInterceptor'
+2022-03-06 00:04:51,935 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'transactionInterceptor'
+2022-03-06 00:04:51,935 TRACE AbstractAutoProxyCreator [main] Did not attempt to auto-proxy infrastructure class [org.springframework.transaction.interceptor.TransactionInterceptor]
+2022-03-06 00:04:51,935 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+2022-03-06 00:04:51,936 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'transactionAttributeSource'
+2022-03-06 00:04:51,936 DEBUG ConstructorResolver [main] Autowiring by type from bean name 'transactionInterceptor' via factory method to bean named 'transactionAttributeSource'
+2022-03-06 00:04:51,950 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'transactionInterceptor' to allow for resolving potential circular references
+2022-03-06 00:04:51,950 TRACE AbstractAutowireCapableBeanFactory [main] Invoking afterPropertiesSet() on bean with name 'transactionInterceptor'
+2022-03-06 00:04:51,951 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'transactionInterceptor'
+2022-03-06 00:04:51,951 DEBUG ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionAttributeSource'
+2022-03-06 00:04:51,951 DEBUG ConstructorResolver [main] Autowiring by type from bean name 'org.springframework.transaction.config.internalTransactionAdvisor' via factory method to bean named 'transactionInterceptor'
+2022-03-06 00:04:51,955 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+2022-03-06 00:04:51,956 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,989 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'projectingArgumentResolverBeanPostProcessor' to allow for resolving potential circular references
+2022-03-06 00:04:51,989 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,990 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2022-03-06 00:04:51,993 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'projectingArgumentResolverBeanPostProcessor'
+2022-03-06 00:04:51,998 TRACE AbstractApplicationContext [main] No 'messageSource' bean, using [Empty MessageSource]

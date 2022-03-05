@@ -1,0 +1,669 @@
+2022-03-06 00:04:50,000 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,007 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,010 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$JdkDynamicAutoProxyConfiguration did not match due to @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class'
+2022-03-06 00:04:50,013 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,014 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,015 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,015 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,016 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,017 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,017 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,017 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,020 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 82
+2022-03-06 00:04:50,023 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,024 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,025 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,025 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIJRMPServerImpl[7a0d181d:17f5a9c890d:-7fff, 1049382363742932458]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+2022-03-06 00:04:50,025 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new client
+2022-03-06 00:04:50,025 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,026 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] no subject
+2022-03-06 00:04:50,026 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  4
+2022-03-06 00:04:50,026 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new connection: rmi://172.18.192.1  4
+2022-03-06 00:04:50,026 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Creates a new ServerCommunicatorAdmin object with the timeout 120000
+2022-03-06 00:04:50,026 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,027 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@340f66b0: connectionId=rmi://172.18.192.1  4
+2022-03-06 00:04:50,028 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add object [7a0d181d:17f5a9c890d:-7fea, -8606708809172910966]
+2022-03-06 00:04:50,029 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] new connection done: rmi://172.18.192.1  4
+2022-03-06 00:04:50,030 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,032 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,033 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,033 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,034 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2022-03-06 00:04:50,035 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,035 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:50,036 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:50,036 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:50,037 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,037 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,037 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate'
+2022-03-06 00:04:50,038 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,038 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:50,038 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,038 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,039 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:50,039 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,040 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2022-03-06 00:04:50,040 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2022-03-06 00:04:50,041 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2022-03-06 00:04:50,041 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,042 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,042 TRACE SpringBootCondition [main] Condition RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition on org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration matched due to NoneNestedConditions 0 matched 1 did not; NestedCondition on RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes
+2022-03-06 00:04:50,042 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2022-03-06 00:04:50,042 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,043 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,043 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,043 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:50,043 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,043 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2022-03-06 00:04:50,043 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,044 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2022-03-06 00:04:50,044 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2022-03-06 00:04:50,045 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:50,046 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fea, -8606708809172910966], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, duration = 600000
+2022-03-06 00:04:50,047 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add to dirty set: 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:50,047 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,047 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,048 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 84
+2022-03-06 00:04:50,048 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,049 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,050 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,050 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,050 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,051 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fea, -8606708809172910966]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+2022-03-06 00:04:50,051 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,052 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,052 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,053 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,050 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,053 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fea, -8606708809172910966]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2022-03-06 00:04:50,053 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,053 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,053 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "javax.management.ObjectName", codebase = ""
+2022-03-06 00:04:50,054 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc)
+2022-03-06 00:04:50,054 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2022-03-06 00:04:50,054 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  4, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-03-06 00:04:50,054 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Receive a new request.
+2022-03-06 00:04:50,055 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:50,055 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] name = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:50,055 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+2022-03-06 00:04:50,055 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Finish a request.
+2022-03-06 00:04:50,055 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Admin: Timestamp=1646492690055
+2022-03-06 00:04:50,055 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration matched due to @ConditionalOnWebApplication (required) found 'session' scope
+2022-03-06 00:04:50,056 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,056 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-06 00:04:50,056 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,058 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,059 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,059 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,058 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,059 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fea, -8606708809172910966]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+2022-03-06 00:04:50,060 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@340f66b0: connectionId=rmi://172.18.192.1  4] closing.
+2022-03-06 00:04:50,060 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] terminate the ServerCommunicatorAdmin object.
+2022-03-06 00:04:50,060 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] client=javax.management.remote.rmi.RMIConnectionImpl@340f66b0: connectionId=rmi://172.18.192.1  4
+2022-03-06 00:04:50,060 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,060 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] closing client.
+2022-03-06 00:04:50,062 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: remove object [7a0d181d:17f5a9c890d:-7fea, -8606708809172910966]
+2022-03-06 00:04:50,061 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,063 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] sending notif
+2022-03-06 00:04:50,063 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] done
+2022-03-06 00:04:50,063 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@340f66b0: connectionId=rmi://172.18.192.1  4] closed.
+2022-03-06 00:04:50,064 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,070 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$NettyWebServerFactoryCustomizerConfiguration did not match due to @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer'
+2022-03-06 00:04:50,070 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,071 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 28] Admin: timeout=120000
+2022-03-06 00:04:50,071 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$UndertowWebServerFactoryCustomizerConfiguration did not match due to @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode'
+2022-03-06 00:04:50,072 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,072 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 28] Admin: Timestamp=1646492690055
+2022-03-06 00:04:50,074 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$JettyWebServerFactoryCustomizerConfiguration did not match due to @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext'
+2022-03-06 00:04:50,074 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,075 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration matched due to @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol'
+2022-03-06 00:04:50,075 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,075 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,075 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,075 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,076 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,076 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,077 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,077 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,077 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,077 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,083 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter'
+2022-03-06 00:04:50,083 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,084 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,084 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,084 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration matched due to @ConditionalOnProperty (server.servlet.encoding.enabled) matched
+2022-03-06 00:04:50,084 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,085 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,085 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,085 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,086 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,087 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,087 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,087 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,087 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,088 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,090 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement'
+2022-03-06 00:04:50,090 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,090 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,090 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,091 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration matched due to @ConditionalOnProperty (spring.servlet.multipart.enabled) matched
+2022-03-06 00:04:50,091 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,091 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,092 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,092 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,102 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method dev.glassym.jpa.DemoConfig.gson()
+2022-03-06 00:04:50,125 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration'
+2022-03-06 00:04:50,154 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched due to @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,154 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,155 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer()
+2022-03-06 00:04:50,157 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'javax.websocket.server.ServerContainer'
+2022-03-06 00:04:50,157 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,158 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,158 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,159 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration matched due to @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci'
+2022-03-06 00:04:50,159 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,159 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration'
+2022-03-06 00:04:50,164 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration#websocketServletWebServerCustomizer matched due to @ConditionalOnMissingBean (names: websocketServletWebServerCustomizer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,165 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,165 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration.websocketServletWebServerCustomizer()
+2022-03-06 00:04:50,167 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration'
+2022-03-06 00:04:50,170 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration matched due to @ConditionalOnClass found required class 'javax.servlet.ServletRequest'
+2022-03-06 00:04:50,170 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,171 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,171 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,172 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol'
+2022-03-06 00:04:50,172 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,187 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,187 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,187 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat'
+2022-03-06 00:04:50,187 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat.tomcatServletWebServerFactory()
+2022-03-06 00:04:50,205 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 82
+2022-03-06 00:04:50,206 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,207 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,210 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,210 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: void clean(java.rmi.server.ObjID[], long, java.rmi.dgc.VMID, boolean)]
+2022-03-06 00:04:50,211 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,212 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:50,214 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:50,214 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 2, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:50,215 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,215 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,215 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:50,215 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,216 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,216 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:50,217 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 10, depth: 2, bytes: 255, ex: n/a
+2022-03-06 00:04:50,217 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 11, depth: 3, bytes: 269, ex: n/a
+2022-03-06 00:04:50,217 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 12, depth: 1, bytes: 348, ex: n/a
+2022-03-06 00:04:50,218 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,218 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,219 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 13, depth: 1, bytes: 349, ex: n/a
+2022-03-06 00:04:50,219 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,220 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:50,220 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 16, depth: 2, bytes: 369, ex: n/a
+2022-03-06 00:04:50,221 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 17, depth: 2, bytes: 375, ex: n/a
+2022-03-06 00:04:50,222 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 18, depth: 2, bytes: 389, ex: n/a
+2022-03-06 00:04:50,223 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7ff0, -8388205452103625516], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, strong = false
+2022-03-06 00:04:50,224 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fea, -8606708809172910966], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, strong = false
+2022-03-06 00:04:50,224 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,232 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration'
+2022-03-06 00:04:50,234 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.servletWebServerFactoryCustomizer()
+2022-03-06 00:04:50,234 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer matched due to @ConditionalOnClass found required class 'org.apache.catalina.startup.Tomcat'
+2022-03-06 00:04:50,234 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,236 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.tomcatServletWebServerFactoryCustomizer()
+2022-03-06 00:04:50,290 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet'
+2022-03-06 00:04:50,291 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,291 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,291 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,292 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration matched due to @ConditionalOnClass found required class 'javax.servlet.ServletRegistration'
+2022-03-06 00:04:50,292 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,293 TRACE SpringBootCondition [main] Condition DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration matched due to DispatcherServlet Registration did not find servlet registration bean
+2022-03-06 00:04:50,293 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,294 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration matched due to @ConditionalOnClass found required class 'javax.servlet.ServletRegistration'
+2022-03-06 00:04:50,294 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,296 TRACE SpringBootCondition [main] Condition DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration matched due to Default DispatcherServlet did not find dispatcher servlet beans
+2022-03-06 00:04:50,297 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,298 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration'
+2022-03-06 00:04:50,299 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration.dispatcherServlet()
+2022-03-06 00:04:50,303 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration#multipartResolver did not match due to @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver
+2022-03-06 00:04:50,304 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,304 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration'
+2022-03-06 00:04:50,307 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched due to @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'
+2022-03-06 00:04:50,307 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,307 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration.dispatcherServletRegistration()
+2022-03-06 00:04:50,308 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration'
+2022-03-06 00:04:50,308 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor'
+2022-03-06 00:04:50,309 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,310 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+2022-03-06 00:04:50,320 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration#taskExecutorBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,321 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,322 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration.taskExecutorBuilder()
+2022-03-06 00:04:50,327 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration#applicationTaskExecutor matched due to @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,333 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,334 TRACE SimpleAliasRegistry [main] Alias definition 'taskExecutor' registered for name 'applicationTaskExecutor'
+2022-03-06 00:04:50,335 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration.applicationTaskExecutor()
+2022-03-06 00:04:50,336 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet'
+2022-03-06 00:04:50,336 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,336 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,337 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,338 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration matched due to @ConditionalOnProperty (server.error.whitelabel.enabled) matched
+2022-03-06 00:04:50,338 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,339 TRACE SpringFactoriesLoader [main] Loaded [org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider] names: [org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider]
+2022-03-06 00:04:50,350 TRACE SpringBootCondition [main] Condition ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration matched due to ErrorTemplate Missing did not find error template view
+2022-03-06 00:04:50,351 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,351 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration'
+2022-03-06 00:04:50,352 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration#defaultErrorView matched due to @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,353 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,355 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.error()
+2022-03-06 00:04:50,359 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration#beanNameViewResolver matched due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,360 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,360 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.beanNameViewResolver()
+2022-03-06 00:04:50,361 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+2022-03-06 00:04:50,370 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,370 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,371 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,372 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,373 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration.conventionErrorViewResolver()
+2022-03-06 00:04:50,376 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+2022-03-06 00:04:50,386 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration#errorAttributes matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,386 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,387 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.errorAttributes()
+2022-03-06 00:04:50,404 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration#basicErrorController matched due to @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,405 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,406 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.basicErrorController()
+2022-03-06 00:04:50,406 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.errorPageCustomizer()
+2022-03-06 00:04:50,407 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.preserveErrorControllerTargetClassPostProcessor()
+2022-03-06 00:04:50,410 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'
+2022-03-06 00:04:50,410 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,410 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,411 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,420 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,420 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,421 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+2022-03-06 00:04:50,421 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter()
+2022-03-06 00:04:50,421 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerMapping()
+2022-03-06 00:04:50,422 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.welcomePageHandlerMapping()
+2022-03-06 00:04:50,422 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration#localeResolver matched due to @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,423 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,423 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.localeResolver()
+2022-03-06 00:04:50,424 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration#themeResolver matched due to @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,424 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,425 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.themeResolver()
+2022-03-06 00:04:50,426 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration#flashMapManager matched due to @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,427 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,427 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.flashMapManager()
+2022-03-06 00:04:50,427 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService()
+2022-03-06 00:04:50,431 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcValidator()
+2022-03-06 00:04:50,432 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcContentNegotiationManager()
+2022-03-06 00:04:50,434 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcPatternParser()
+2022-03-06 00:04:50,434 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcUrlPathHelper()
+2022-03-06 00:04:50,435 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcPathMatcher()
+2022-03-06 00:04:50,435 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.viewControllerHandlerMapping()
+2022-03-06 00:04:50,435 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.beanNameHandlerMapping()
+2022-03-06 00:04:50,436 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.routerFunctionMapping()
+2022-03-06 00:04:50,436 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.resourceHandlerMapping()
+2022-03-06 00:04:50,436 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcResourceUrlProvider()
+2022-03-06 00:04:50,437 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.defaultServletHandlerMapping()
+2022-03-06 00:04:50,437 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.handlerFunctionAdapter()
+2022-03-06 00:04:50,437 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcUriComponentsContributor()
+2022-03-06 00:04:50,438 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.httpRequestHandlerAdapter()
+2022-03-06 00:04:50,439 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.simpleControllerHandlerAdapter()
+2022-03-06 00:04:50,439 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.handlerExceptionResolver()
+2022-03-06 00:04:50,440 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcViewResolver()
+2022-03-06 00:04:50,440 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcHandlerMappingIntrospector()
+2022-03-06 00:04:50,440 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.viewNameTranslator()
+2022-03-06 00:04:50,443 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+2022-03-06 00:04:50,489 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#defaultViewResolver matched due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,490 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,490 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.defaultViewResolver()
+2022-03-06 00:04:50,495 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#beanNameViewResolver did not match due to @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver
+2022-03-06 00:04:50,496 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,498 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#viewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,498 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,499 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#viewResolver matched due to @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,499 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,499 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.viewResolver()
+2022-03-06 00:04:50,504 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#requestContextFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,504 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,505 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter#requestContextFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,505 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,506 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.requestContextFilter()
+2022-03-06 00:04:50,507 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration'
+2022-03-06 00:04:50,508 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#hiddenHttpMethodFilter did not match due to @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled'
+2022-03-06 00:04:50,508 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,508 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#formContentFilter matched due to @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched
+2022-03-06 00:04:50,508 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,510 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration#formContentFilter matched due to @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,511 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,511 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.formContentFilter()
+2022-03-06 00:04:50,512 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter'
+2022-03-06 00:04:50,512 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,513 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration matched due to @ConditionalOnProperty (spring.jmx.enabled=true) matched
+2022-03-06 00:04:50,514 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,514 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration'
+2022-03-06 00:04:50,518 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#mbeanExporter matched due to @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,519 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,519 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration.mbeanExporter()
+2022-03-06 00:04:50,521 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#objectNamingStrategy matched due to @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,521 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,522 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration.objectNamingStrategy()
+2022-03-06 00:04:50,522 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration#mbeanServer matched due to @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,522 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,523 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration.mbeanServer()
+2022-03-06 00:04:50,523 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration matched due to @ConditionalOnProperty (spring.application.admin.enabled=true) matched
+2022-03-06 00:04:50,523 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,523 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration'
+2022-03-06 00:04:50,526 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar matched due to @ConditionalOnMissingBean (types: org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,526 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,526 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration.springApplicationAdminRegistrar()
+2022-03-06 00:04:50,527 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.aop.AopAutoConfiguration matched due to @ConditionalOnProperty (spring.aop.auto=true) matched
+2022-03-06 00:04:50,527 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,527 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration matched due to @ConditionalOnClass found required class 'org.aspectj.weaver.Advice'
+2022-03-06 00:04:50,527 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,527 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration matched due to @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched
+2022-03-06 00:04:50,527 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,528 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration'
+2022-03-06 00:04:50,535 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration'
+2022-03-06 00:04:50,535 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.aop.AopAutoConfiguration'
+2022-03-06 00:04:50,535 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration'
+2022-03-06 00:04:50,536 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration.applicationAvailability()
+2022-03-06 00:04:50,537 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration matched due to @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper'
+2022-03-06 00:04:50,537 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,539 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder'
+2022-03-06 00:04:50,540 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,541 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+2022-03-06 00:04:50,541 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration.standardJacksonObjectMapperBuilderCustomizer()
+2022-03-06 00:04:50,542 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder'
+2022-03-06 00:04:50,542 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,543 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+2022-03-06 00:04:50,560 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,560 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,561 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration.jacksonObjectMapperBuilder()
+2022-03-06 00:04:50,569 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration matched due to @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule'
+2022-03-06 00:04:50,569 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,569 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+2022-03-06 00:04:50,576 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration#parameterNamesModule matched due to @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,576 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,576 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration.parameterNamesModule()
+2022-03-06 00:04:50,576 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder'
+2022-03-06 00:04:50,576 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,577 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+2022-03-06 00:04:50,581 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 82
+2022-03-06 00:04:50,582 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,583 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,583 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,584 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIJRMPServerImpl[7a0d181d:17f5a9c890d:-7fff, 1049382363742932458]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+2022-03-06 00:04:50,585 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new client
+2022-03-06 00:04:50,585 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] no subject
+2022-03-06 00:04:50,586 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  5
+2022-03-06 00:04:50,586 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] making new connection: rmi://172.18.192.1  5
+2022-03-06 00:04:50,586 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Creates a new ServerCommunicatorAdmin object with the timeout 120000
+2022-03-06 00:04:50,588 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@133bab94: connectionId=rmi://172.18.192.1  5
+2022-03-06 00:04:50,588 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add object [7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733]
+2022-03-06 00:04:50,589 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] new connection done: rmi://172.18.192.1  5
+2022-03-06 00:04:50,589 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,590 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,591 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,591 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,591 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2022-03-06 00:04:50,592 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,592 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:50,592 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:50,593 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:50,593 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,594 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,596 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:50,597 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,598 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,598 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:50,598 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,599 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2022-03-06 00:04:50,599 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2022-03-06 00:04:50,599 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2022-03-06 00:04:50,600 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,600 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:50,601 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2022-03-06 00:04:50,601 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:50,602 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:50,602 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2022-03-06 00:04:50,603 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2022-03-06 00:04:50,603 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2022-03-06 00:04:50,605 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:50,605 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, duration = 600000
+2022-03-06 00:04:50,606 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration#jacksonObjectMapper matched due to @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,606 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,606 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: add to dirty set: 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:50,607 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,609 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 84
+2022-03-06 00:04:50,610 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,611 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,611 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,614 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+2022-03-06 00:04:50,615 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,616 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,616 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,616 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,617 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2022-03-06 00:04:50,617 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: name = "javax.management.ObjectName", codebase = ""
+2022-03-06 00:04:50,618 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc)
+2022-03-06 00:04:50,618 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2022-03-06 00:04:50,619 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration.jacksonObjectMapper()
+2022-03-06 00:04:50,619 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] connectionId=rmi://172.18.192.1  5, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-03-06 00:04:50,620 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Receive a new request.
+2022-03-06 00:04:50,620 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:50,621 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+2022-03-06 00:04:50,621 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] name = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:50,621 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+2022-03-06 00:04:50,621 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Finish a request.
+2022-03-06 00:04:50,621 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] Admin: Timestamp=1646492690621
+2022-03-06 00:04:50,622 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-06 00:04:50,622 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,625 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:50,625 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting input stream
+2022-03-06 00:04:50,625 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.jsonComponentModule()
+2022-03-06 00:04:50,626 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: call dispatcher
+2022-03-06 00:04:50,626 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+2022-03-06 00:04:50,626 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration matched due to @ConditionalOnClass found required class 'javax.transaction.Transaction'
+2022-03-06 00:04:50,626 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@133bab94: connectionId=rmi://172.18.192.1  5] closing.
+2022-03-06 00:04:50,626 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] terminate the ServerCommunicatorAdmin object.
+2022-03-06 00:04:50,626 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,627 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] client=javax.management.remote.rmi.RMIConnectionImpl@133bab94: connectionId=rmi://172.18.192.1  5
+2022-03-06 00:04:50,627 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] closing client.
+2022-03-06 00:04:50,627 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: remove object [7a0d181d:17f5a9c890d:-7fe3, 5178892526110266733]
+2022-03-06 00:04:50,627 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] sending notif
+2022-03-06 00:04:50,627 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration matched due to @ConditionalOnProperty (spring.jta.enabled) matched
+2022-03-06 00:04:50,627 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] done
+2022-03-06 00:04:50,627 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,628 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(1)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@133bab94: connectionId=rmi://172.18.192.1  5] closed.
+2022-03-06 00:04:50,631 DEBUG Log$LoggerLog [RMI TCP Connection(1)-172.18.192.1] RMI TCP Connection(1)-172.18.192.1: getting output stream
+2022-03-06 00:04:50,636 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 29] Admin: timeout=120000
+2022-03-06 00:04:50,636 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 29] Admin: Timestamp=1646492690621
+2022-03-06 00:04:50,639 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration'
+2022-03-06 00:04:50,640 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.sql.DataSource', 'javax.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType'
+2022-03-06 00:04:50,640 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,648 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration did not match due to @ConditionalOnBean (types: org.springframework.boot.jdbc.XADataSourceWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jdbc.XADataSourceWrapper
+2022-03-06 00:04:50,649 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,650 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration matched due to @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType'
+2022-03-06 00:04:50,650 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,653 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration matched due to @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,654 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,656 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration matched due to @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,656 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,657 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari matched due to @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource'
+2022-03-06 00:04:50,657 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,658 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari matched due to @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched
+2022-03-06 00:04:50,658 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,660 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari matched due to @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,660 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,660 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari'
+2022-03-06 00:04:50,661 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource()
+2022-03-06 00:04:50,664 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration matched due to @ConditionalOnProperty (spring.jmx.enabled=true) matched
+2022-03-06 00:04:50,664 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,665 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari matched due to @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource'
+2022-03-06 00:04:50,666 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,674 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+2022-03-06 00:04:50,675 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,675 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari'
+2022-03-06 00:04:50,676 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration'
+2022-03-06 00:04:50,684 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration'
+2022-03-06 00:04:50,684 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration matched due to @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource'
+2022-03-06 00:04:50,685 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,685 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration'
+2022-03-06 00:04:50,685 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration.hikariPoolDataSourceMetadataProvider()
+2022-03-06 00:04:50,686 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration'
+2022-03-06 00:04:50,689 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'
+2022-03-06 00:04:50,689 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration matched due to @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'javax.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor'
+2022-03-06 00:04:50,690 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,698 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration matched due to @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'
+2022-03-06 00:04:50,698 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,699 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer'
+2022-03-06 00:04:50,700 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,700 TRACE SpringBootCondition [main] Condition OnWebApplicationCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to found 'session' scope
+2022-03-06 00:04:50,700 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,701 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnProperty (spring.jpa.open-in-view=true) matched
+2022-03-06 00:04:50,701 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,706 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,707 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,709 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,709 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,710 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration'
+2022-03-06 00:04:50,710 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor()
+2022-03-06 00:04:50,710 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptorConfigurer()
+2022-03-06 00:04:50,716 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration'
+2022-03-06 00:04:50,720 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#transactionManager matched due to @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,720 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,720 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.transactionManager()
+2022-03-06 00:04:50,726 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#jpaVendorAdapter matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,727 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,727 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.jpaVendorAdapter()
+2022-03-06 00:04:50,728 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#entityManagerFactoryBuilder matched due to @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,728 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,732 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.entityManagerFactoryBuilder()
+2022-03-06 00:04:50,733 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration#entityManagerFactory matched due to @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,734 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,734 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.entityManagerFactory()
+2022-03-06 00:04:50,734 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration'
+2022-03-06 00:04:50,735 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.cache.CacheManager'
+2022-03-06 00:04:50,735 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,737 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match due to @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport
+2022-03-06 00:04:50,737 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,738 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration'
+2022-03-06 00:04:50,739 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration'
+2022-03-06 00:04:50,739 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration#defaultLifecycleProcessor matched due to @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans
+2022-03-06 00:04:50,740 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,740 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration.lifecycleProcessor()
+2022-03-06 00:04:50,740 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor'
+2022-03-06 00:04:50,740 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,740 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration'
+2022-03-06 00:04:50,741 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched due to @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched
+2022-03-06 00:04:50,741 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,752 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched due to @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,752 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,752 TRACE ConfigurationClassBeanDefinitionReader [main] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration.persistenceExceptionTranslationPostProcessor()
+2022-03-06 00:04:50,753 TRACE SpringBootCondition [main] Condition OnClassCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository'
+2022-03-06 00:04:50,753 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,754 TRACE SpringBootCondition [main] Condition OnPropertyCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched
+2022-03-06 00:04:50,754 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,769 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,769 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,777 TRACE SpringBootCondition [main] Condition OnBeanCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration matched due to @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans
+2022-03-06 00:04:50,777 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,785 TRACE ConfigurationClassBeanDefinitionReader [main] Registered bean definition for imported class 'org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration'
+2022-03-06 00:04:50,794 TRACE SpringBootCondition [main] Condition JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition on org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer did not match due to AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'bootstrap-mode'
+2022-03-06 00:04:50,794 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'autoConfigurationReport'
+2022-03-06 00:04:50,847 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-06 00:04:50,869 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-03-06 00:04:50,869 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-03-06 00:04:50,870 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages' to allow for resolving potential circular references
+2022-03-06 00:04:50,870 TRACE AbstractAutowireCapableBeanFactory [main] Finished creating instance of bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-03-06 00:04:50,871 DEBUG AutoConfigurationPackages$BasePackages [main] @EnableAutoConfiguration was declared on a class in the package 'dev.glassym.jpa'. Automatic @Repository and @Entity scanning is enabled.
+2022-03-06 00:04:50,874 DEBUG RepositoryConfigurationDelegate [main] Scanning for JPA repositories in packages dev.glassym.jpa.
+2022-03-06 00:04:50,902 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-03-06 00:04:50,904 TRACE PathMatchingResourcePatternResolver [main] Resolved classpath location [dev/glassym/jpa/] to resources [URL [file:/C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/]]
+2022-03-06 00:04:50,905 TRACE PathMatchingResourcePatternResolver [main] Looking for matching resources in directory tree [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa]
+2022-03-06 00:04:50,906 TRACE PathMatchingResourcePatternResolver [main] Searching directory [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa] for files matching pattern [C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/**/*.class]
+2022-03-06 00:04:50,910 TRACE PathMatchingResourcePatternResolver [main] Searching directory [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity] for files matching pattern [C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/**/*.class]
+2022-03-06 00:04:50,915 TRACE PathMatchingResourcePatternResolver [main] Searching directory [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository] for files matching pattern [C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/**/*.class]
+2022-03-06 00:04:50,917 TRACE PathMatchingResourcePatternResolver [main] Resolved location pattern [classpath*:dev/glassym/jpa/**/*.class] to resources [file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\DemoConfig.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\JpaApplication.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostController.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostDao.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostDto.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostService.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\ProfileComponent.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\BaseEntity.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\BoardEntity.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\PostEntity.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository\BoardRepository.class], file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository\PostRepository.class]]
+2022-03-06 00:04:50,917 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\DemoConfig.class]
+2022-03-06 00:04:50,918 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\DemoConfig.class]
+2022-03-06 00:04:50,918 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\JpaApplication.class]
+2022-03-06 00:04:50,918 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\JpaApplication.class]
+2022-03-06 00:04:50,919 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostController.class]
+2022-03-06 00:04:50,919 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostController.class]
+2022-03-06 00:04:50,919 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostDao.class]
+2022-03-06 00:04:50,919 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostDao.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostDto.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostDto.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostService.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\PostService.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\ProfileComponent.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\ProfileComponent.class]
+2022-03-06 00:04:50,920 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\BaseEntity.class]
+2022-03-06 00:04:50,921 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\BaseEntity.class]
+2022-03-06 00:04:50,921 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\BoardEntity.class]
+2022-03-06 00:04:50,922 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\BoardEntity.class]
+2022-03-06 00:04:50,922 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\PostEntity.class]
+2022-03-06 00:04:50,923 TRACE ClassPathScanningCandidateComponentProvider [main] Ignored because not matching any filter: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity\PostEntity.class]
+2022-03-06 00:04:50,923 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository\BoardRepository.class]
+2022-03-06 00:04:50,925 DEBUG ClassPathScanningCandidateComponentProvider [main] Identified candidate component class: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository\BoardRepository.class]
+2022-03-06 00:04:50,925 TRACE ClassPathScanningCandidateComponentProvider [main] Scanning file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository\PostRepository.class]
+2022-03-06 00:04:50,926 DEBUG ClassPathScanningCandidateComponentProvider [main] Identified candidate component class: file [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository\PostRepository.class]
+2022-03-06 00:04:50,940 TRACE SpringFactoriesLoader [main] Loaded [org.springframework.data.util.ProxyUtils$ProxyDetector] names: [org.springframework.data.jpa.util.HibernateProxyDetector]
+2022-03-06 00:04:50,977 TRACE AbstractBeanFactory [main] Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+2022-03-06 00:04:50,982 TRACE PathMatchingResourcePatternResolver [main] Resolved classpath location [dev/glassym/jpa/] to resources [URL [file:/C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/]]
+2022-03-06 00:04:50,983 TRACE PathMatchingResourcePatternResolver [main] Looking for matching resources in directory tree [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa]
+2022-03-06 00:04:50,984 TRACE PathMatchingResourcePatternResolver [main] Searching directory [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa] for files matching pattern [C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/**/*Impl.class]
+2022-03-06 00:04:50,986 TRACE PathMatchingResourcePatternResolver [main] Searching directory [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\entity] for files matching pattern [C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/**/*Impl.class]
+2022-03-06 00:04:50,988 TRACE PathMatchingResourcePatternResolver [main] Searching directory [C:\Users\user\jpa\build\classes\java\main\dev\glassym\jpa\repository] for files matching pattern [C:/Users/user/jpa/build/classes/java/main/dev/glassym/jpa/**/*Impl.class]
+2022-03-06 00:04:50,989 TRACE PathMatchingResourcePatternResolver [main] Resolved location pattern [classpath*:dev/glassym/jpa/**/*Impl.class] to resources []

@@ -1,0 +1,95 @@
+2022-03-06 00:04:46,071 TRACE ClassPathScanningCandidateComponentProvider [main] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2022-03-06 00:04:46,137 INFO StartupInfoLogger [main] Starting JpaApplication using Java 11.0.9 on DESKTOP-5KQULIQ with PID 15056 (C:\Users\user\jpa\build\classes\java\main started by user in C:\Users\user\jpa)
+2022-03-06 00:04:46,139 DEBUG StartupInfoLogger [main] Running with Spring Boot v2.5.10, Spring v5.3.16
+2022-03-06 00:04:46,140 INFO SpringApplication [main] The following 1 profile is active: "test"
+2022-03-06 00:04:46,141 DEBUG SpringApplication [main] Loading source class dev.glassym.jpa.JpaApplication
+2022-03-06 00:04:46,203 TRACE ClassPathScanningCandidateComponentProvider [main] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2022-03-06 00:04:46,385 TRACE DeferredLog [main] RandomValuePropertySource add to Environment
+2022-03-06 00:04:46,385 TRACE DeferredLog [main] Post-processing environment to add config data
+2022-03-06 00:04:46,401 TRACE DeferredLog [main] Building config data environment contributors
+2022-03-06 00:04:46,402 TRACE DeferredLog [main] Creating wrapped config data contributor for 'configurationProperties'
+2022-03-06 00:04:46,404 TRACE DeferredLog [main] Creating wrapped config data contributor for 'servletConfigInitParams'
+2022-03-06 00:04:46,408 TRACE DeferredLog [main] Creating wrapped config data contributor for 'servletContextInitParams'
+2022-03-06 00:04:46,409 TRACE DeferredLog [main] Creating wrapped config data contributor for 'systemProperties'
+2022-03-06 00:04:46,416 TRACE DeferredLog [main] Creating wrapped config data contributor for 'systemEnvironment'
+2022-03-06 00:04:46,425 TRACE DeferredLog [main] Creating wrapped config data contributor for 'random'
+2022-03-06 00:04:46,426 TRACE DeferredLog [main] Adding initial config data import from location 'optional:file:./;optional:file:./config/;optional:file:./config/*/'
+2022-03-06 00:04:46,433 TRACE DeferredLog [main] Adding initial config data import from location 'optional:classpath:/;optional:classpath:/config/'
+2022-03-06 00:04:46,435 TRACE DeferredLog [main] Processing initial config data environment contributors without activation context
+2022-03-06 00:04:46,436 TRACE DeferredLog [main] Processing imports for phase BEFORE_PROFILE_ACTIVATION. no activation context
+2022-03-06 00:04:46,436 TRACE DeferredLog [main] Processing imports [optional:file:./;optional:file:./config/;optional:file:./config/*/]
+2022-03-06 00:04:46,437 TRACE DeferredLog [main] Skipping missing resource file:./application.yaml
+2022-03-06 00:04:46,438 TRACE DeferredLog [main] Skipping missing resource file:./application.yml
+2022-03-06 00:04:46,440 TRACE DeferredLog [main] Skipping missing resource file:./application.xml
+2022-03-06 00:04:46,441 TRACE DeferredLog [main] Skipping missing resource file:./application.properties
+2022-03-06 00:04:46,454 TRACE DeferredLog [main] Skipping missing resource file:./config/application.yaml
+2022-03-06 00:04:46,456 TRACE DeferredLog [main] Skipping missing resource file:./config/application.yml
+2022-03-06 00:04:46,457 TRACE DeferredLog [main] Skipping missing resource file:./config/application.xml
+2022-03-06 00:04:46,458 TRACE DeferredLog [main] Skipping missing resource file:./config/application.properties
+2022-03-06 00:04:46,459 TRACE DeferredLog [main] Loading file [.] using loader org.springframework.boot.context.config.StandardConfigDataLoader
+2022-03-06 00:04:46,470 TRACE DeferredLog [main] Imported 1 resource [file [.]]
+2022-03-06 00:04:46,473 TRACE DeferredLog [main] Processing imports [optional:classpath:/;optional:classpath:/config/]
+2022-03-06 00:04:46,473 TRACE DeferredLog [main] Skipping missing resource classpath:/application.yaml
+2022-03-06 00:04:46,474 TRACE DeferredLog [main] Skipping missing resource classpath:/application.xml
+2022-03-06 00:04:46,475 TRACE DeferredLog [main] Skipping missing resource classpath:/application.properties
+2022-03-06 00:04:46,475 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.yaml
+2022-03-06 00:04:46,476 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.yml
+2022-03-06 00:04:46,476 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.xml
+2022-03-06 00:04:46,477 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.properties
+2022-03-06 00:04:46,478 TRACE DeferredLog [main] Loading class path resource [application.yml] using loader org.springframework.boot.context.config.StandardConfigDataLoader
+2022-03-06 00:04:46,483 TRACE DeferredLog [main] Imported 1 resource [class path resource [application.yml]]
+2022-03-06 00:04:46,485 TRACE DeferredLog [main] Processed imports for of 2 contributors
+2022-03-06 00:04:46,486 TRACE DeferredLog [main] Creating config data activation context from initial contributions
+2022-03-06 00:04:46,488 TRACE DeferredLog [main] Processing config data environment contributors with initial activation context
+2022-03-06 00:04:46,523 TRACE DeferredLog [main] Processing imports for phase BEFORE_PROFILE_ACTIVATION. [ConfigDataActivationContext@160c3ec1 cloudPlatform = [null], profiles = [null]]
+2022-03-06 00:04:46,523 TRACE DeferredLog [main] Processed imports for of 0 contributors
+2022-03-06 00:04:46,524 TRACE DeferredLog [main] Deducing profiles from current config data environment contributors
+2022-03-06 00:04:46,524 TRACE DeferredLog [main] Processing config data environment contributors with profile activation context
+2022-03-06 00:04:46,525 TRACE DeferredLog [main] Processing imports for phase AFTER_PROFILE_ACTIVATION. [ConfigDataActivationContext@182b435b cloudPlatform = [null], profiles = [Profiles@4d0402b active = '[test]', default = '[default]', accepted = '[test]']]
+2022-03-06 00:04:46,526 TRACE DeferredLog [main] Processing imports [optional:file:./;optional:file:./config/;optional:file:./config/*/]
+2022-03-06 00:04:46,531 TRACE DeferredLog [main] Skipping missing resource file:./application.yaml
+2022-03-06 00:04:46,535 TRACE DeferredLog [main] Skipping missing resource file:./application.yml
+2022-03-06 00:04:46,536 TRACE DeferredLog [main] Skipping missing resource file:./application.xml
+2022-03-06 00:04:46,537 TRACE DeferredLog [main] Skipping missing resource file:./application.properties
+2022-03-06 00:04:46,538 TRACE DeferredLog [main] Skipping missing resource file:./config/application.yaml
+2022-03-06 00:04:46,538 TRACE DeferredLog [main] Skipping missing resource file:./config/application.yml
+2022-03-06 00:04:46,539 TRACE DeferredLog [main] Skipping missing resource file:./config/application.xml
+2022-03-06 00:04:46,540 TRACE DeferredLog [main] Skipping missing resource file:./config/application.properties
+2022-03-06 00:04:46,540 TRACE DeferredLog [main] Skipping missing resource file:./application-test.yaml
+2022-03-06 00:04:46,540 TRACE DeferredLog [main] Skipping missing resource file:./application-test.yml
+2022-03-06 00:04:46,541 TRACE DeferredLog [main] Skipping missing resource file:./application-test.xml
+2022-03-06 00:04:46,541 TRACE DeferredLog [main] Skipping missing resource file:./application-test.properties
+2022-03-06 00:04:46,542 TRACE DeferredLog [main] Skipping missing resource file:./config/application-test.yaml
+2022-03-06 00:04:46,542 TRACE DeferredLog [main] Skipping missing resource file:./config/application-test.yml
+2022-03-06 00:04:46,553 TRACE DeferredLog [main] Skipping missing resource file:./config/application-test.xml
+2022-03-06 00:04:46,554 TRACE DeferredLog [main] Skipping missing resource file:./config/application-test.properties
+2022-03-06 00:04:46,558 TRACE DeferredLog [main] Nothing imported
+2022-03-06 00:04:46,559 TRACE DeferredLog [main] Processing imports [optional:classpath:/;optional:classpath:/config/]
+2022-03-06 00:04:46,566 TRACE DeferredLog [main] Skipping missing resource classpath:/application.yaml
+2022-03-06 00:04:46,567 TRACE DeferredLog [main] Skipping missing resource classpath:/application.xml
+2022-03-06 00:04:46,568 TRACE DeferredLog [main] Skipping missing resource classpath:/application.properties
+2022-03-06 00:04:46,568 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.yaml
+2022-03-06 00:04:46,569 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.yml
+2022-03-06 00:04:46,569 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.xml
+2022-03-06 00:04:46,569 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application.properties
+2022-03-06 00:04:46,570 TRACE DeferredLog [main] Skipping missing resource classpath:/application-test.yaml
+2022-03-06 00:04:46,570 TRACE DeferredLog [main] Skipping missing resource classpath:/application-test.xml
+2022-03-06 00:04:46,571 TRACE DeferredLog [main] Skipping missing resource classpath:/application-test.properties
+2022-03-06 00:04:46,572 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application-test.yaml
+2022-03-06 00:04:46,572 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application-test.yml
+2022-03-06 00:04:46,573 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application-test.xml
+2022-03-06 00:04:46,574 TRACE DeferredLog [main] Skipping missing resource classpath:/config/application-test.properties
+2022-03-06 00:04:46,574 TRACE DeferredLog [main] Loading class path resource [application-test.yml] using loader org.springframework.boot.context.config.StandardConfigDataLoader
+2022-03-06 00:04:46,575 TRACE DeferredLog [main] Imported 1 resource [class path resource [application-test.yml]]
+2022-03-06 00:04:46,575 TRACE DeferredLog [main] Processed imports for of 2 contributors
+2022-03-06 00:04:46,575 TRACE DeferredLog [main] Applying config data environment contributions
+2022-03-06 00:04:46,576 TRACE DeferredLog [main] Adding imported property source 'Config resource 'class path resource [application-test.yml]' via location 'optional:classpath:/''
+2022-03-06 00:04:46,576 TRACE DeferredLog [main] Adding imported property source 'Config resource 'class path resource [application.yml]' via location 'optional:classpath:/''
+2022-03-06 00:04:46,577 TRACE DeferredLog [main] Setting default profiles: [default]
+2022-03-06 00:04:46,578 TRACE DeferredLog [main] Setting active profiles: [test]
+2022-03-06 00:04:46,583 TRACE AbstractApplicationContext [main] Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@55f3c410, started on Sun Mar 06 00:04:46 KST 2022
+2022-03-06 00:04:46,627 TRACE AbstractBeanFactory [main] Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@11ee02f8]
+2022-03-06 00:04:46,631 TRACE AbstractBeanFactory [main] Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@5b69fd74]
+2022-03-06 00:04:46,834 DEBUG DefaultSingletonBeanRegistry [main] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-03-06 00:04:46,835 TRACE AbstractAutowireCapableBeanFactory [main] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2022-03-06 00:04:46,850 TRACE AbstractAutowireCapableBeanFactory [main] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references

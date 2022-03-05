@@ -1,0 +1,317 @@
+2022-03-06 00:04:55,011 DEBUG IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2022-03-06 00:04:55,022 DEBUG IntegratorServiceImpl [main] Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2022-03-06 00:04:55,026 DEBUG IntegratorServiceImpl [main] Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2022-03-06 00:04:55,047 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2022-03-06 00:04:55,049 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2022-03-06 00:04:55,050 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2022-03-06 00:04:55,050 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2022-03-06 00:04:55,051 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2022-03-06 00:04:55,053 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+2022-03-06 00:04:55,055 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+2022-03-06 00:04:55,056 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+2022-03-06 00:04:55,056 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2022-03-06 00:04:55,056 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2022-03-06 00:04:55,057 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+2022-03-06 00:04:55,058 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+2022-03-06 00:04:55,059 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+2022-03-06 00:04:55,060 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+2022-03-06 00:04:55,061 TRACE StrategySelectorImpl [main] Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+2022-03-06 00:04:55,106 INFO Version [main] HHH000412: Hibernate ORM core version 5.4.33
+2022-03-06 00:04:55,109 DEBUG Environment [main] HHH000206: hibernate.properties not found
+2022-03-06 00:04:55,415 DEBUG ServiceBinding [main] Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2022-03-06 00:04:55,429 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+2022-03-06 00:04:55,440 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+2022-03-06 00:04:55,442 DEBUG RegionFactoryInitiator [main] Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2022-03-06 00:04:55,444 DEBUG RegionFactoryInitiator [main] Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2022-03-06 00:04:55,474 INFO JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-06 00:04:55,535 DEBUG BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@478fb7dc
+2022-03-06 00:04:55,535 DEBUG BasicTypeRegistry [main] Adding type registration boolean -> org.hibernate.type.BooleanType@478fb7dc
+2022-03-06 00:04:55,535 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@478fb7dc
+2022-03-06 00:04:55,537 DEBUG BasicTypeRegistry [main] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@634f58d2
+2022-03-06 00:04:55,538 DEBUG BasicTypeRegistry [main] Adding type registration true_false -> org.hibernate.type.TrueFalseType@1a1f79ce
+2022-03-06 00:04:55,539 DEBUG BasicTypeRegistry [main] Adding type registration yes_no -> org.hibernate.type.YesNoType@492be039
+2022-03-06 00:04:55,542 DEBUG BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@391d1e33
+2022-03-06 00:04:55,543 DEBUG BasicTypeRegistry [main] Adding type registration byte -> org.hibernate.type.ByteType@391d1e33
+2022-03-06 00:04:55,543 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@391d1e33
+2022-03-06 00:04:55,545 DEBUG BasicTypeRegistry [main] Adding type registration character -> org.hibernate.type.CharacterType@3fde2209
+2022-03-06 00:04:55,545 DEBUG BasicTypeRegistry [main] Adding type registration char -> org.hibernate.type.CharacterType@3fde2209
+2022-03-06 00:04:55,546 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3fde2209
+2022-03-06 00:04:55,548 DEBUG BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@1e226bcd
+2022-03-06 00:04:55,548 DEBUG BasicTypeRegistry [main] Adding type registration short -> org.hibernate.type.ShortType@1e226bcd
+2022-03-06 00:04:55,548 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1e226bcd
+2022-03-06 00:04:55,550 DEBUG BasicTypeRegistry [main] Adding type registration integer -> org.hibernate.type.IntegerType@6f38f084
+2022-03-06 00:04:55,551 DEBUG BasicTypeRegistry [main] Adding type registration int -> org.hibernate.type.IntegerType@6f38f084
+2022-03-06 00:04:55,551 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6f38f084
+2022-03-06 00:04:55,553 DEBUG BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@5968800d
+2022-03-06 00:04:55,554 DEBUG BasicTypeRegistry [main] Adding type registration long -> org.hibernate.type.LongType@5968800d
+2022-03-06 00:04:55,554 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Long -> org.hibernate.type.LongType@5968800d
+2022-03-06 00:04:55,556 DEBUG BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@6ddd1c51
+2022-03-06 00:04:55,556 DEBUG BasicTypeRegistry [main] Adding type registration float -> org.hibernate.type.FloatType@6ddd1c51
+2022-03-06 00:04:55,557 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6ddd1c51
+2022-03-06 00:04:55,558 DEBUG BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@6544899b
+2022-03-06 00:04:55,559 DEBUG BasicTypeRegistry [main] Adding type registration double -> org.hibernate.type.DoubleType@6544899b
+2022-03-06 00:04:55,559 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6544899b
+2022-03-06 00:04:55,561 DEBUG BasicTypeRegistry [main] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@42c0a16e
+2022-03-06 00:04:55,561 DEBUG BasicTypeRegistry [main] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@42c0a16e
+2022-03-06 00:04:55,563 DEBUG BasicTypeRegistry [main] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@637c840d
+2022-03-06 00:04:55,564 DEBUG BasicTypeRegistry [main] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@637c840d
+2022-03-06 00:04:55,565 DEBUG BasicTypeRegistry [main] Adding type registration string -> org.hibernate.type.StringType@119290b9
+2022-03-06 00:04:55,566 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.String -> org.hibernate.type.StringType@119290b9
+2022-03-06 00:04:55,566 DEBUG BasicTypeRegistry [main] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@512abf25
+2022-03-06 00:04:55,567 DEBUG BasicTypeRegistry [main] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7aa01bd9
+2022-03-06 00:04:55,569 DEBUG BasicTypeRegistry [main] Adding type registration url -> org.hibernate.type.UrlType@5a9840f3
+2022-03-06 00:04:55,570 DEBUG BasicTypeRegistry [main] Adding type registration java.net.URL -> org.hibernate.type.UrlType@5a9840f3
+2022-03-06 00:04:55,572 DEBUG BasicTypeRegistry [main] Adding type registration Duration -> org.hibernate.type.DurationType@1cd2ff5b
+2022-03-06 00:04:55,572 DEBUG BasicTypeRegistry [main] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@1cd2ff5b
+2022-03-06 00:04:55,574 DEBUG BasicTypeRegistry [main] Adding type registration Instant -> org.hibernate.type.InstantType@14de1901
+2022-03-06 00:04:55,574 DEBUG BasicTypeRegistry [main] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@14de1901
+2022-03-06 00:04:55,576 DEBUG BasicTypeRegistry [main] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@6a567f7b
+2022-03-06 00:04:55,576 DEBUG BasicTypeRegistry [main] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@6a567f7b
+2022-03-06 00:04:55,578 DEBUG BasicTypeRegistry [main] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6380e9e9
+2022-03-06 00:04:55,579 DEBUG BasicTypeRegistry [main] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6380e9e9
+2022-03-06 00:04:55,580 DEBUG BasicTypeRegistry [main] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2589d787
+2022-03-06 00:04:55,581 DEBUG BasicTypeRegistry [main] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2589d787
+2022-03-06 00:04:55,582 DEBUG BasicTypeRegistry [main] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@578a5ce8
+2022-03-06 00:04:55,583 DEBUG BasicTypeRegistry [main] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@578a5ce8
+2022-03-06 00:04:55,584 DEBUG BasicTypeRegistry [main] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@71936a92
+2022-03-06 00:04:55,585 DEBUG BasicTypeRegistry [main] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@71936a92
+2022-03-06 00:04:55,588 DEBUG BasicTypeRegistry [main] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@20349058
+2022-03-06 00:04:55,589 DEBUG BasicTypeRegistry [main] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@20349058
+2022-03-06 00:04:55,592 DEBUG BasicTypeRegistry [main] Adding type registration date -> org.hibernate.type.DateType@5a592c70
+2022-03-06 00:04:55,592 DEBUG BasicTypeRegistry [main] Adding type registration java.sql.Date -> org.hibernate.type.DateType@5a592c70
+2022-03-06 00:04:55,596 DEBUG BasicTypeRegistry [main] Adding type registration time -> org.hibernate.type.TimeType@4b7ed03e
+2022-03-06 00:04:55,596 DEBUG BasicTypeRegistry [main] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4b7ed03e
+2022-03-06 00:04:55,600 DEBUG BasicTypeRegistry [main] Adding type registration timestamp -> org.hibernate.type.TimestampType@30abf79c
+2022-03-06 00:04:55,601 DEBUG BasicTypeRegistry [main] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@30abf79c
+2022-03-06 00:04:55,602 DEBUG BasicTypeRegistry [main] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@30abf79c
+2022-03-06 00:04:55,606 DEBUG BasicTypeRegistry [main] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@3caee3a8
+2022-03-06 00:04:55,611 DEBUG BasicTypeRegistry [main] Adding type registration calendar -> org.hibernate.type.CalendarType@4270b142
+2022-03-06 00:04:55,611 DEBUG BasicTypeRegistry [main] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4270b142
+2022-03-06 00:04:55,611 DEBUG BasicTypeRegistry [main] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4270b142
+2022-03-06 00:04:55,615 DEBUG BasicTypeRegistry [main] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@50bc3219
+2022-03-06 00:04:55,618 DEBUG BasicTypeRegistry [main] Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@6b0f266e
+2022-03-06 00:04:55,620 DEBUG BasicTypeRegistry [main] Adding type registration locale -> org.hibernate.type.LocaleType@fddd7ae
+2022-03-06 00:04:55,621 DEBUG BasicTypeRegistry [main] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@fddd7ae
+2022-03-06 00:04:55,623 DEBUG BasicTypeRegistry [main] Adding type registration currency -> org.hibernate.type.CurrencyType@350323a0
+2022-03-06 00:04:55,623 DEBUG BasicTypeRegistry [main] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@350323a0
+2022-03-06 00:04:55,626 DEBUG BasicTypeRegistry [main] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5111de7c
+2022-03-06 00:04:55,626 DEBUG BasicTypeRegistry [main] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5111de7c
+2022-03-06 00:04:55,628 DEBUG BasicTypeRegistry [main] Adding type registration class -> org.hibernate.type.ClassType@6075b369
+2022-03-06 00:04:55,629 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6075b369
+2022-03-06 00:04:55,631 DEBUG BasicTypeRegistry [main] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@723e2d08
+2022-03-06 00:04:55,631 DEBUG BasicTypeRegistry [main] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@723e2d08
+2022-03-06 00:04:55,635 DEBUG BasicTypeRegistry [main] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@79df80a4
+2022-03-06 00:04:55,638 DEBUG BasicTypeRegistry [main] Adding type registration binary -> org.hibernate.type.BinaryType@138f0661
+2022-03-06 00:04:55,638 DEBUG BasicTypeRegistry [main] Adding type registration byte[] -> org.hibernate.type.BinaryType@138f0661
+2022-03-06 00:04:55,639 DEBUG BasicTypeRegistry [main] Adding type registration [B -> org.hibernate.type.BinaryType@138f0661
+2022-03-06 00:04:55,641 DEBUG BasicTypeRegistry [main] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1c5d3a37
+2022-03-06 00:04:55,642 DEBUG BasicTypeRegistry [main] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1c5d3a37
+2022-03-06 00:04:55,642 DEBUG BasicTypeRegistry [main] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1c5d3a37
+2022-03-06 00:04:55,645 DEBUG BasicTypeRegistry [main] Adding type registration row_version -> org.hibernate.type.RowVersionType@4584304
+2022-03-06 00:04:55,646 DEBUG BasicTypeRegistry [main] Adding type registration image -> org.hibernate.type.ImageType@5fb3111a
+2022-03-06 00:04:55,648 DEBUG BasicTypeRegistry [main] Adding type registration characters -> org.hibernate.type.CharArrayType@26da1ba2
+2022-03-06 00:04:55,649 DEBUG BasicTypeRegistry [main] Adding type registration char[] -> org.hibernate.type.CharArrayType@26da1ba2
+2022-03-06 00:04:55,650 DEBUG BasicTypeRegistry [main] Adding type registration [C -> org.hibernate.type.CharArrayType@26da1ba2
+2022-03-06 00:04:55,653 DEBUG BasicTypeRegistry [main] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@33e4b9c4
+2022-03-06 00:04:55,653 DEBUG BasicTypeRegistry [main] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@33e4b9c4
+2022-03-06 00:04:55,653 DEBUG BasicTypeRegistry [main] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@33e4b9c4
+2022-03-06 00:04:55,655 DEBUG BasicTypeRegistry [main] Adding type registration text -> org.hibernate.type.TextType@7d37ee0c
+2022-03-06 00:04:55,656 DEBUG BasicTypeRegistry [main] Adding type registration ntext -> org.hibernate.type.NTextType@353c6da1
+2022-03-06 00:04:55,661 DEBUG BasicTypeRegistry [main] Adding type registration blob -> org.hibernate.type.BlobType@3487442d
+2022-03-06 00:04:55,661 DEBUG BasicTypeRegistry [main] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3487442d
+2022-03-06 00:04:55,663 DEBUG BasicTypeRegistry [main] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@43c7fe8a
+2022-03-06 00:04:55,668 DEBUG BasicTypeRegistry [main] Adding type registration clob -> org.hibernate.type.ClobType@32ae8f27
+2022-03-06 00:04:55,668 DEBUG BasicTypeRegistry [main] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@32ae8f27
+2022-03-06 00:04:55,671 DEBUG BasicTypeRegistry [main] Adding type registration nclob -> org.hibernate.type.NClobType@d87d449
+2022-03-06 00:04:55,676 DEBUG BasicTypeRegistry [main] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@d87d449
+2022-03-06 00:04:55,678 DEBUG BasicTypeRegistry [main] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5bb8e6fc
+2022-03-06 00:04:55,679 DEBUG BasicTypeRegistry [main] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@747f6c5a
+2022-03-06 00:04:55,686 DEBUG BasicTypeRegistry [main] Adding type registration serializable -> org.hibernate.type.SerializableType@4981d95b
+2022-03-06 00:04:55,695 DEBUG BasicTypeRegistry [main] Adding type registration object -> org.hibernate.type.ObjectType@52ecc989
+2022-03-06 00:04:55,695 DEBUG BasicTypeRegistry [main] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@52ecc989
+2022-03-06 00:04:55,700 DEBUG BasicTypeRegistry [main] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@6486fe7b
+2022-03-06 00:04:55,703 DEBUG BasicTypeRegistry [main] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@511da44f
+2022-03-06 00:04:55,710 DEBUG BasicTypeRegistry [main] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4645679e
+2022-03-06 00:04:55,711 DEBUG BasicTypeRegistry [main] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3a0b6a
+2022-03-06 00:04:55,712 DEBUG BasicTypeRegistry [main] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@539c4830
+2022-03-06 00:04:55,713 DEBUG BasicTypeRegistry [main] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6f1fa1d0
+2022-03-06 00:04:55,715 DEBUG BasicTypeRegistry [main] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@28b523a
+2022-03-06 00:04:55,716 DEBUG BasicTypeRegistry [main] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@52ba685a
+2022-03-06 00:04:55,727 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+2022-03-06 00:04:55,781 DEBUG BootstrapContextImpl [main] Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@78b03788] into BootstrapContext; was [null]
+2022-03-06 00:04:55,781 DEBUG ClassLoaderAccessImpl [main] ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@78b03788) [was null]
+2022-03-06 00:04:55,783 DEBUG BootstrapContextImpl [main] Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@69a5c6be] into BootstrapContext; was [null]
+2022-03-06 00:04:55,784 DEBUG BootstrapContextImpl [main] Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@451e2fa9] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@497ed877]
+2022-03-06 00:04:55,818 DEBUG BootstrapContextImpl [main] Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@78b03788]
+2022-03-06 00:04:55,818 DEBUG ClassLoaderAccessImpl [main] ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@78b03788]
+2022-03-06 00:04:55,829 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+2022-03-06 00:04:55,833 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2022-03-06 00:04:55,835 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2022-03-06 00:04:55,836 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2022-03-06 00:04:55,836 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2022-03-06 00:04:55,837 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2022-03-06 00:04:55,839 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2022-03-06 00:04:55,840 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2022-03-06 00:04:55,843 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-03-06 00:04:55,845 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2022-03-06 00:04:55,847 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2022-03-06 00:04:55,848 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2022-03-06 00:04:55,849 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2022-03-06 00:04:55,850 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2022-03-06 00:04:55,852 DEBUG DefaultIdentifierGeneratorFactory [main] Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2022-03-06 00:04:55,852 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2022-03-06 00:04:55,853 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+2022-03-06 00:04:55,855 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+2022-03-06 00:04:55,860 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+2022-03-06 00:04:55,863 TRACE AbstractServiceRegistryImpl [main] Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+2022-03-06 00:04:55,871 DEBUG HikariConfig [main] HikariPool-1 - configuration:
+2022-03-06 00:04:55,876 DEBUG HikariConfig [main] allowPoolSuspension................................false
+2022-03-06 00:04:55,877 DEBUG HikariConfig [main] autoCommit................................true
+2022-03-06 00:04:55,877 DEBUG HikariConfig [main] catalog................................none
+2022-03-06 00:04:55,878 DEBUG HikariConfig [main] connectionInitSql................................none
+2022-03-06 00:04:55,878 DEBUG HikariConfig [main] connectionTestQuery................................none
+2022-03-06 00:04:55,878 DEBUG HikariConfig [main] connectionTimeout................................30000
+2022-03-06 00:04:55,878 DEBUG HikariConfig [main] dataSource................................none
+2022-03-06 00:04:55,879 DEBUG HikariConfig [main] dataSourceClassName................................none
+2022-03-06 00:04:55,879 DEBUG HikariConfig [main] dataSourceJNDI................................none
+2022-03-06 00:04:55,880 DEBUG HikariConfig [main] dataSourceProperties................................{password=<masked>}
+2022-03-06 00:04:55,880 DEBUG HikariConfig [main] driverClassName................................"org.h2.Driver"
+2022-03-06 00:04:55,882 DEBUG HikariConfig [main] exceptionOverrideClassName................................none
+2022-03-06 00:04:55,883 DEBUG HikariConfig [main] healthCheckProperties................................{}
+2022-03-06 00:04:55,883 DEBUG HikariConfig [main] healthCheckRegistry................................none
+2022-03-06 00:04:55,884 DEBUG HikariConfig [main] idleTimeout................................600000
+2022-03-06 00:04:55,884 DEBUG HikariConfig [main] initializationFailTimeout................................1
+2022-03-06 00:04:55,884 DEBUG HikariConfig [main] isolateInternalQueries................................false
+2022-03-06 00:04:55,885 DEBUG HikariConfig [main] jdbcUrl................................jdbc:h2:mem:testdb
+2022-03-06 00:04:55,885 DEBUG HikariConfig [main] keepaliveTime................................0
+2022-03-06 00:04:55,885 DEBUG HikariConfig [main] leakDetectionThreshold................................0
+2022-03-06 00:04:55,885 DEBUG HikariConfig [main] maxLifetime................................1800000
+2022-03-06 00:04:55,886 DEBUG HikariConfig [main] maximumPoolSize................................10
+2022-03-06 00:04:55,886 DEBUG HikariConfig [main] metricRegistry................................none
+2022-03-06 00:04:55,886 DEBUG HikariConfig [main] metricsTrackerFactory................................none
+2022-03-06 00:04:55,886 DEBUG HikariConfig [main] minimumIdle................................10
+2022-03-06 00:04:55,886 DEBUG HikariConfig [main] password................................<masked>
+2022-03-06 00:04:55,887 DEBUG HikariConfig [main] poolName................................"HikariPool-1"
+2022-03-06 00:04:55,887 DEBUG HikariConfig [main] readOnly................................false
+2022-03-06 00:04:55,887 DEBUG HikariConfig [main] registerMbeans................................false
+2022-03-06 00:04:55,887 DEBUG HikariConfig [main] scheduledExecutor................................none
+2022-03-06 00:04:55,887 DEBUG HikariConfig [main] schema................................none
+2022-03-06 00:04:55,888 DEBUG HikariConfig [main] threadFactory................................internal
+2022-03-06 00:04:55,888 DEBUG HikariConfig [main] transactionIsolation................................default
+2022-03-06 00:04:55,888 DEBUG HikariConfig [main] username................................"sa"
+2022-03-06 00:04:55,888 DEBUG HikariConfig [main] validationTimeout................................5000
+2022-03-06 00:04:55,888 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-06 00:04:55,957 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: accepted socket from [172.18.192.1:60299]
+2022-03-06 00:04:55,958 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) suggesting 172.18.192.1:60299
+2022-03-06 00:04:55,959 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) client using 127.0.0.1:54906
+2022-03-06 00:04:55,959 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:55,959 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting input stream
+2022-03-06 00:04:55,959 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: call dispatcher
+2022-03-06 00:04:55,960 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIJRMPServerImpl[7a0d181d:17f5a9c890d:-7fff, 1049382363742932458]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+2022-03-06 00:04:55,960 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] making new client
+2022-03-06 00:04:55,960 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] no subject
+2022-03-06 00:04:55,960 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] connectionId=rmi://172.18.192.1  9
+2022-03-06 00:04:55,960 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] making new connection: rmi://172.18.192.1  9
+2022-03-06 00:04:55,961 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] Creates a new ServerCommunicatorAdmin object with the timeout 120000
+2022-03-06 00:04:55,961 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Admin: timeout=120000
+2022-03-06 00:04:55,961 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: strongRef = javax.management.remote.rmi.RMIConnectionImpl@15a47bef: connectionId=rmi://172.18.192.1  9
+2022-03-06 00:04:55,962 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: add object [7a0d181d:17f5a9c890d:-7fc9, 1397918170911431379]
+2022-03-06 00:04:55,962 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Admin: Timestamp=1646492695961
+2022-03-06 00:04:55,962 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] new connection done: rmi://172.18.192.1  9
+2022-03-06 00:04:55,962 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Admin: remaining timeout=119999
+2022-03-06 00:04:55,962 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Waiting with timeout: 119999 ms remaining
+2022-03-06 00:04:55,962 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting output stream
+2022-03-06 00:04:55,964 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:55,965 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting input stream
+2022-03-06 00:04:55,965 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: call dispatcher
+2022-03-06 00:04:55,966 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: [172.18.192.1: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2022-03-06 00:04:55,966 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:55,967 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2022-03-06 00:04:55,967 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2022-03-06 00:04:55,967 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2022-03-06 00:04:55,968 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:55,968 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2022-03-06 00:04:55,968 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2022-03-06 00:04:55,969 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:55,969 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2022-03-06 00:04:55,969 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2022-03-06 00:04:55,970 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:55,970 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2022-03-06 00:04:55,970 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2022-03-06 00:04:55,971 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2022-03-06 00:04:55,971 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:55,971 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2022-03-06 00:04:55,971 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2022-03-06 00:04:55,972 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@53556f3c
+2022-03-06 00:04:55,972 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "[B" found via defaultLoader, defined by null
+2022-03-06 00:04:55,972 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2022-03-06 00:04:55,972 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2022-03-06 00:04:55,973 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2022-03-06 00:04:55,973 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:55,973 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: id = [7a0d181d:17f5a9c890d:-7fc9, 1397918170911431379], vmid = 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe, duration = 600000
+2022-03-06 00:04:55,974 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: add to dirty set: 99be8dbc73d6a5e9:-4d94187:17f5a7d881a:-7ffe
+2022-03-06 00:04:55,974 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting output stream
+2022-03-06 00:04:55,975 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) op = 84
+2022-03-06 00:04:55,976 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:55,976 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting input stream
+2022-03-06 00:04:55,976 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: call dispatcher
+2022-03-06 00:04:55,977 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fc9, 1397918170911431379]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+2022-03-06 00:04:55,977 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting output stream
+2022-03-06 00:04:55,978 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:55,978 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting input stream
+2022-03-06 00:04:55,978 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: call dispatcher
+2022-03-06 00:04:55,979 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fc9, 1397918170911431379]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2022-03-06 00:04:55,979 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: name = "javax.management.ObjectName", codebase = ""
+2022-03-06 00:04:55,979 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (thread context class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc)
+2022-03-06 00:04:55,980 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2022-03-06 00:04:55,980 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] connectionId=rmi://172.18.192.1  9, name=org.springframework.boot:type=Admin,name=SpringApplication, attribute=Ready
+2022-03-06 00:04:55,980 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] Receive a new request.
+2022-03-06 00:04:55,980 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] Attribute = Ready, ObjectName = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:55,981 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] name = org.springframework.boot:type=Admin,name=SpringApplication
+2022-03-06 00:04:55,981 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] org.springframework.boot:type=Admin,name=SpringApplication : Found no object
+2022-03-06 00:04:55,981 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] Finish a request.
+2022-03-06 00:04:55,981 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] Admin: Timestamp=1646492695981
+2022-03-06 00:04:55,982 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: [172.18.192.1] exception: 
+javax.management.InstanceNotFoundException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1083)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttribute(DefaultMBeanServerInterceptor.java:637)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.getAttribute(JmxMBeanServer.java:678)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1443)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.getAttribute(RMIConnectionImpl.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-03-06 00:04:55,982 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting output stream
+2022-03-06 00:04:55,983 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Admin: elapsed=2
+2022-03-06 00:04:55,984 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Admin: remaining timeout=119997
+2022-03-06 00:04:55,984 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Waiting with timeout: 119997 ms remaining
+2022-03-06 00:04:55,985 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: (port 60296) op = 80
+2022-03-06 00:04:55,985 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting input stream
+2022-03-06 00:04:55,985 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: call dispatcher
+2022-03-06 00:04:55,985 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: [172.18.192.1: javax.management.remote.rmi.RMIConnectionImpl[7a0d181d:17f5a9c890d:-7fc9, 1397918170911431379]: public abstract void javax.management.remote.rmi.RMIConnection.close() throws java.io.IOException]
+2022-03-06 00:04:55,986 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@15a47bef: connectionId=rmi://172.18.192.1  9] closing.
+2022-03-06 00:04:55,986 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] terminate the ServerCommunicatorAdmin object.
+2022-03-06 00:04:55,986 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] client=javax.management.remote.rmi.RMIConnectionImpl@15a47bef: connectionId=rmi://172.18.192.1  9
+2022-03-06 00:04:55,986 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] closing client.
+2022-03-06 00:04:55,986 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: remove object [7a0d181d:17f5a9c890d:-7fc9, 1397918170911431379]
+2022-03-06 00:04:55,986 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] sending notif
+2022-03-06 00:04:55,987 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] done
+2022-03-06 00:04:55,987 DEBUG LoggingProviderImpl$JULWrapper [JMX server connection timeout 41] Admin: elapsed=6
+2022-03-06 00:04:55,987 DEBUG LoggingProviderImpl$JULWrapper [RMI TCP Connection(2)-172.18.192.1] [javax.management.remote.rmi.RMIConnectionImpl@15a47bef: connectionId=rmi://172.18.192.1  9] closed.
+2022-03-06 00:04:55,987 DEBUG Log$LoggerLog [RMI TCP Connection(2)-172.18.192.1] RMI TCP Connection(2)-172.18.192.1: getting output stream
