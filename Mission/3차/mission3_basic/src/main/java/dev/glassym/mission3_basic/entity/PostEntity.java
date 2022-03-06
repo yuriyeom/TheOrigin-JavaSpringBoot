@@ -14,13 +14,19 @@ public class PostEntity {
 
     private String title;
     private String content;
-    private String writer;
+//    private String writer;
 
     @ManyToOne(
             targetEntity = BoardEntity.class,
             fetch = FetchType.LAZY
     )
     private BoardEntity boardEntity;
+
+    @ManyToOne(
+            targetEntity = UserEntity.class,
+            fetch = FetchType.LAZY
+    )
+    private UserEntity userEntity;
 
     public PostEntity() {
     }
@@ -37,9 +43,6 @@ public class PostEntity {
         return content;
     }
 
-    public String getWriter() {
-        return writer;
-    }
 
     public void setId(Long id) {
         this.id = id;
@@ -53,8 +56,12 @@ public class PostEntity {
         this.content = content;
     }
 
-    public void setWriter(String writer) {
-        this.writer = writer;
+    public UserEntity getUserEntity() {
+        return userEntity;
+    }
+
+    public void setUserEntity(UserEntity userEntity) {
+        this.userEntity = userEntity;
     }
 
     public void setBoardEntity(BoardEntity boardEntity) {

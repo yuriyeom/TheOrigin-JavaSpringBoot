@@ -30,12 +30,11 @@ public class PostService {
 
     public PostDto readPost(int boardId, int postid){
         PostEntity postEntity = this.postDao.readPost(boardId, postid);
-
         return new PostDto(
                 postEntity.getId(),
                 postEntity.getTitle(),
                 postEntity.getContent(),
-                postEntity.getWriter(),
+                postEntity.getUserEntity().getName(),
                 postEntity.getBoardEntity() == null
                         ? 0 : Math.toIntExact(postEntity.getBoardEntity().getId())
         );
@@ -46,12 +45,12 @@ public class PostService {
         List<PostDto> postDtoList = new ArrayList<>();
         while(iterator.hasNext()){
             PostEntity postEntity = iterator.next();
-            if(Objects.equals(postEntity.getBoardEntity().getId(), boardId)) {
+            if(Objects.equals(postEntity.getBoardEntity().getId(), (long)boardId)) {
                 postDtoList.add(new PostDto(
                         postEntity.getId(),
                         postEntity.getTitle(),
                         postEntity.getContent(),
-                        postEntity.getWriter(),
+                        postEntity.getUserEntity().getName(),
                         postEntity.getBoardEntity() == null
                                 ? 0 : Math.toIntExact(postEntity.getBoardEntity().getId())
                 ));
