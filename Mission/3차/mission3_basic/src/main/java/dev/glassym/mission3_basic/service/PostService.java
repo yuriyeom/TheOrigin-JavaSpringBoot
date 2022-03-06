@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class PostService {
@@ -23,12 +24,13 @@ public class PostService {
         this.postDao = postDao;
     }
 
-    public void createPost(PostDto dto){
-        this.postDao.createPost(dto);
+    public void createPost(int boardId, PostDto dto){
+        this.postDao.createPost(boardId, dto);
     }
 
-    public PostDto readPost(int id){
-        PostEntity postEntity = this.postDao.readPost(id);
+    public PostDto readPost(int boardId, int postid){
+        PostEntity postEntity = this.postDao.readPost(boardId, postid);
+
         return new PostDto(
                 postEntity.getId(),
                 postEntity.getTitle(),
@@ -39,28 +41,30 @@ public class PostService {
         );
     }
 
-    public List<PostDto> readPostAll(){
+    public List<PostDto> readPostAll(int boardId){
         Iterator<PostEntity> iterator = this.postDao.readPostAll();
         List<PostDto> postDtoList = new ArrayList<>();
         while(iterator.hasNext()){
             PostEntity postEntity = iterator.next();
-            postDtoList.add(new PostDto(
-                    postEntity.getId(),
-                    postEntity.getTitle(),
-                    postEntity.getContent(),
-                    postEntity.getWriter(),
-                    postEntity.getBoardEntity() == null
-                            ? 0 : Math.toIntExact(postEntity.getBoardEntity().getId())
-            ));
+            if(Objects.equals(postEntity.getBoardEntity().getId(), boardId)) {
+                postDtoList.add(new PostDto(
+                        postEntity.getId(),
+                        postEntity.getTitle(),
+                        postEntity.getContent(),
+                        postEntity.getWriter(),
+                        postEntity.getBoardEntity() == null
+                                ? 0 : Math.toIntExact(postEntity.getBoardEntity().getId())
+                ));
+            }
         }
         return postDtoList;
     }
 
-    public void updatePost(int id, PostDto dto){
-        this.postDao.updatePost(id, dto);
+    public void updatePost(int boardId,  int postId, PostDto dto){
+        this.postDao.updatePost(boardId, postId, dto);
     }
 
-    public void deletePost(int id){
-        this.postDao.deletePost(id);
+    public void deletePost(int boardId,int postId){
+        this.postDao.deletePost(boardId, postId);
     }
 }

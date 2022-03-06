@@ -1,5 +1,6 @@
 package dev.glassym.mission3_basic.repository;
 
+import dev.glassym.mission3_basic.entity.BoardEntity;
 import dev.glassym.mission3_basic.entity.PostEntity;
 import dev.glassym.mission3_basic.model.PostDto;
 import org.slf4j.Logger;
@@ -10,31 +11,36 @@ import org.springframework.stereotype.Repository;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Iterator;
+import java.util.Objects;
 import java.util.Optional;
 
 @Repository
 public class PostDao {
     private static final Logger logger = LoggerFactory.getLogger(PostDao.class);
     private final PostRepository postRepository;
+    private final BoardDao boardDao;
 
     public PostDao(
-            @Autowired PostRepository postRepository
+            @Autowired PostRepository postRepository,
+            @Autowired BoardDao boardDao
     ){
         this.postRepository = postRepository;
+        this.boardDao = boardDao;
     }
 
-    public void createPost(PostDto dto){
+    public void createPost(int boardId, PostDto dto){
         PostEntity postEntity = new PostEntity();
         postEntity.setTitle(dto.getTitle());
         postEntity.setContent(dto.getContent());
         postEntity.setWriter(dto.getWriter());
-        postEntity.setBoardEntity(null);
+        BoardEntity boardEntity = this.boardDao.readBoard(boardId);
+        postEntity.setBoardEntity(boardEntity);
         this.postRepository.save(postEntity);
     }
 
-    public PostEntity readPost(int id){
-        Optional<PostEntity> postEntity = this.postRepository.findById((long) id);
-        if(postEntity.isEmpty()){
+    public PostEntity readPost(int boardId, int postId){
+        Optional<PostEntity> postEntity = this.postRepository.findById((long) postId);
+        if(!Objects.equals(postEntity.get().getBoardEntity().getId(), boardId)){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         return postEntity.get();
@@ -44,9 +50,12 @@ public class PostDao {
         return this.postRepository.findAll().iterator();
     }
 
-    public void updatePost(int id, PostDto dto){
-        Optional<PostEntity> targetEntity = this.postRepository.findById((long) id);
+    public void updatePost(int boardId, int postId, PostDto dto){
+        Optional<PostEntity> targetEntity = this.postRepository.findById((long) postId);
         if(targetEntity.isEmpty()){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+        }
+        if(!Objects.equals(targetEntity.get().getBoardEntity().getId(), boardId)){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         PostEntity postEntity = targetEntity.get();
@@ -62,9 +71,12 @@ public class PostDao {
         this.postRepository.save(postEntity);
     }
 
-    public void deletePost(int id){
-        Optional<PostEntity> targetEntity = this.postRepository.findById((long) id);
+    public void deletePost(int boardId, int postId){
+        Optional<PostEntity> targetEntity = this.postRepository.findById((long) postId);
         if(targetEntity.isEmpty()){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+        }
+        if(!Objects.equals(targetEntity.get().getBoardEntity().getId(), boardId)){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         this.postRepository.delete(targetEntity.get());

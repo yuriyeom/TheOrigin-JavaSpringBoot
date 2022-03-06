@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("post")
+@RequestMapping("board/{boardId}/post")
 public class PostController {
     private static final Logger logger = LoggerFactory.getLogger(PostController.class);
     private final PostService postService;
@@ -25,34 +25,40 @@ public class PostController {
     @PostMapping()
     @ResponseStatus(HttpStatus.CREATED)
     public void createPost(
+            @PathVariable("boardId") int boardId,
             @RequestBody PostDto dto){
-        this.postService.createPost(dto);
+        this.postService.createPost(boardId, dto);
     }
 
-    @GetMapping("{id}")
+    @GetMapping("{postId}")
     public PostDto readPost(
-            @PathVariable("id") int id
+            @PathVariable("boardId") int boardtId,
+            @PathVariable("postId") int postId
     ){
-        return this.postService.readPost(id);
+        return this.postService.readPost(boardtId, postId);
     }
 
     @GetMapping()
-    public List<PostDto> readPostAll(){
-        return this.postService.readPostAll();
+    public List<PostDto> readPostAll(
+            @PathVariable("boardId") int boardId
+    ){
+        return this.postService.readPostAll(boardId);
     }
 
-    @PutMapping("{id}")
+    @PutMapping("{postId}")
     public void updatePost(
-            @PathVariable("id") int id,
+            @PathVariable("boardId") int boardId,
+            @PathVariable("postId") int postId,
             @RequestBody PostDto dto
     ){
-        this.postService.updatePost(id, dto);
+        this.postService.updatePost(boardId, postId, dto);
     }
 
-    @DeleteMapping("{id}")
+    @DeleteMapping("{postId}")
     public void deletePost(
-            @PathVariable("id") int id
+            @PathVariable("boardId") int boardId,
+            @PathVariable("postId") int postId
     ){
-        this.postService.deletePost(id);
+        this.postService.deletePost(boardId, postId);
     }
 }
