@@ -1,15 +1,10 @@
 package dev.glassym.mission3_basic.entity;
 
-import dev.glassym.mission3_basic.model.BoardDto;
-import dev.glassym.mission3_basic.model.UserDto;
-import lombok.Builder;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Builder
 public class UserEntity {
 
     @Id
@@ -32,22 +27,31 @@ public class UserEntity {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getPassword() {
         return password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public List<PostEntity> getPostEntityList() {
         return postEntityList;
     }
 
-    public static UserEntityBuilder builder(UserDto dto){
-        return new UserEntityBuilder()
-                .id(dto.getId())
-                .name(dto.getName())
-                .password(dto.getPassword());
+    public void setPostEntityList(List<PostEntity> postEntityList) {
+        this.postEntityList = postEntityList;
     }
 }
