@@ -9,6 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.persistence.EntityManager;
 import java.util.Iterator;
 import java.util.Optional;
 
@@ -16,17 +17,21 @@ import java.util.Optional;
 public class BoardDao {
     private static final Logger logger = LoggerFactory.getLogger(BoardDao.class);
     private final BoardRepository boardRepository;
+    private final EntityManager em;
 
     public BoardDao(
-            @Autowired BoardRepository boardRepository
-    ){
+            @Autowired BoardRepository boardRepository,
+            @Autowired EntityManager em
+
+            ){
         this.boardRepository = boardRepository;
+        this.em = em;
     }
 
     public void createBoard(BoardDto dto){
-        BoardEntity boardEntity = new BoardEntity();
-        boardEntity.setId(dto.getId());
-        boardEntity.setName(dto.getName());
+        BoardEntity boardEntity = BoardEntity.builder(dto).build();
+//        boardEntity.setId(dto.getId());
+//        boardEntity.setName(dto.getName());
         this.boardRepository.save(boardEntity);
     }
 
@@ -47,11 +52,7 @@ public class BoardDao {
         if(targetEntity.isEmpty()){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
-        BoardEntity boardEntity = targetEntity.get();
-        boardEntity.setName(dto.getName());
-//        boardEntity.setPostEntityList(
-//                dto.getPostList() == null ? boardEntity.getPostEntityList() : dto.getPostList());
-//        );
+        BoardEntity boardEntity = BoardEntity.builder(new BoardDto((long)id, dto.getName())).build();
         this.boardRepository.save(boardEntity);
     }
 

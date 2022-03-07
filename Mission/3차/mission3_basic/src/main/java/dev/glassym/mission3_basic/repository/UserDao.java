@@ -25,10 +25,7 @@ public class UserDao {
     }
 
     public void createUser(UserDto dto){
-        UserEntity userEntity = new UserEntity();
-        userEntity.setId(dto.getId());
-        userEntity.setName(dto.getName());
-        userEntity.setPassword(dto.getPassword());
+        UserEntity userEntity = UserEntity.builder(dto).build();
         this.userRepository.save(userEntity);
     }
 
@@ -58,8 +55,8 @@ public class UserDao {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         UserEntity userEntity = targetEntity.get();
-        userEntity.setPassword(dto.getPassword());
-        this.userRepository.save(userEntity);
+        UserEntity resultEntity = UserEntity.builder(new UserDto(userEntity.getId(), userEntity.getName(), dto.getPassword())).build();
+        this.userRepository.save(resultEntity);
     }
 
     public void deleteUser(int id){

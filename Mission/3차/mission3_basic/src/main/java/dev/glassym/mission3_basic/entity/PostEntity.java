@@ -1,11 +1,11 @@
 package dev.glassym.mission3_basic.entity;
 
+import dev.glassym.mission3_basic.model.PostDto;
 import lombok.Builder;
 
 import javax.persistence.*;
 
 @Entity
-@Builder
 public class PostEntity {
 
     @Id
@@ -14,18 +14,19 @@ public class PostEntity {
 
     private String title;
     private String content;
-//    private String writer;
 
     @ManyToOne(
             targetEntity = BoardEntity.class,
             fetch = FetchType.LAZY
     )
+    @JoinColumn(name = "board_id")
     private BoardEntity boardEntity;
 
     @ManyToOne(
             targetEntity = UserEntity.class,
             fetch = FetchType.LAZY
     )
+    @JoinColumn(name = "user_id")
     private UserEntity userEntity;
 
     public PostEntity() {
@@ -43,6 +44,13 @@ public class PostEntity {
         return content;
     }
 
+    public UserEntity getUserEntity() {
+        return userEntity;
+    }
+
+    public BoardEntity getBoardEntity() {
+        return boardEntity;
+    }
 
     public void setId(Long id) {
         this.id = id;
@@ -56,20 +64,12 @@ public class PostEntity {
         this.content = content;
     }
 
-    public UserEntity getUserEntity() {
-        return userEntity;
-    }
-
-    public void setUserEntity(UserEntity userEntity) {
-        this.userEntity = userEntity;
-    }
-
     public void setBoardEntity(BoardEntity boardEntity) {
         this.boardEntity = boardEntity;
     }
 
-    public BoardEntity getBoardEntity() {
-        return boardEntity;
+    public void setUserEntity(UserEntity userEntity) {
+        this.userEntity = userEntity;
     }
 
 }
