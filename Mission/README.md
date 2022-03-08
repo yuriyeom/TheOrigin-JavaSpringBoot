@@ -112,3 +112,42 @@ Update 후 Read
 ![application-prod](https://user-images.githubusercontent.com/43941336/157230630-712ba7aa-0f44-4812-8a43-ef029c00df7a.png)   
 
 
+### Challenge
+필드 부분만 캡쳐했습니다.
+
+- **AreaEntity**  
+![AreaEntity](https://user-images.githubusercontent.com/43941336/157253015-490a511e-d7c8-4dd4-a844-a95add74523b.PNG)   
+
+- **UserEntity**  
+![UserEntity](https://user-images.githubusercontent.com/43941336/157253074-06d1e154-627d-4080-a9c0-10499569409e.PNG)   
+User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 있도록 enum을 사용했다.   
+   - enum Auth   
+   ![enumAuth](https://user-images.githubusercontent.com/43941336/157253427-ae719f34-aed1-477f-ae8a-a3d3dea9384d.PNG)   
+- **ShopEntity**   
+![ShopEntity](https://user-images.githubusercontent.com/43941336/157253103-d42653d5-5d53-43b3-9887-c90afde87da1.PNG)   
+취급 품목 카테고리로 미리 정의된 값들 중 하나를 가질 수 있도록 enum을 사용했다.
+현재는 임의값으로 설정해두었다.
+   - enum Category   
+   ![enumCategory](https://user-images.githubusercontent.com/43941336/157253422-75aa9693-a696-4704-9b10-05254f1507ea.PNG)   
+
+- **ShopPostEntity**    
+![ShopPostEntity](https://user-images.githubusercontent.com/43941336/157253133-53df0c4f-a23c-4318-803e-c4d1ad523a69.PNG)       
+해당 ShopEntity의 주인 UserEntity만 작성할 수 있는 기능은 ShopPostEntity에 있는 userEntity와 shopEntity가 가지고 있는 user를 비교하면 된다.
+
+- **ShopReviewEntity**     
+![ShopReviewEntity](https://user-images.githubusercontent.com/43941336/157253159-dc58b3db-a709-4380-905a-1f016033d2fd.PNG)   
+
+- **생성된 테이블**   
+![table](https://user-images.githubusercontent.com/43941336/157253241-e2cf58b7-b0f6-4af0-a38b-b0bbb634b7b9.PNG)       
+
+- **새로운 엔티티간 연관관계**   
+   UserEntity - AreaEntity : 다대일 양방향   
+   
+   ShopEntity - AreaEntity : 다대일 양방향   
+   ShopEntity - UserEntity : 다대일 양방향 // 상점 주인일 경우   
+   
+   ShopPostEntity - ShopEntity : 다대일 양방향   
+   ShopPostEntity - UserEntity : 다대일 단방향 // 상점 주인일 경우   
+   
+   ShopReviewEntity - ShopEntity : 다대일 양방향   
+   ShopReviewEntity - UserEntity : 다대일 단방향   
