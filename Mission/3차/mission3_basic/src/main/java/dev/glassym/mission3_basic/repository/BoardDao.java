@@ -9,7 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.server.ResponseStatusException;
 
-import javax.persistence.EntityManager;
 import java.util.Iterator;
 import java.util.Optional;
 
@@ -17,15 +16,12 @@ import java.util.Optional;
 public class BoardDao {
     private static final Logger logger = LoggerFactory.getLogger(BoardDao.class);
     private final BoardRepository boardRepository;
-    private final EntityManager em;
 
     public BoardDao(
-            @Autowired BoardRepository boardRepository,
-            @Autowired EntityManager em
+            @Autowired BoardRepository boardRepository
 
             ){
         this.boardRepository = boardRepository;
-        this.em = em;
     }
 
     public void createBoard(BoardDto dto){

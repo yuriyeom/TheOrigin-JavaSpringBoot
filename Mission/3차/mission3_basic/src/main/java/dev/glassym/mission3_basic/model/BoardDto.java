@@ -1,8 +1,5 @@
 package dev.glassym.mission3_basic.model;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class BoardDto {
     private Long id;
     private String name;
@@ -27,7 +24,6 @@ public class BoardDto {
     public void setName(String name) {
         this.name = name;
     }
-
 
     @Override
     public String toString() {

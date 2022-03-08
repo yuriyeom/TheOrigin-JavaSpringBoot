@@ -1,6 +1,5 @@
 package dev.glassym.mission3_basic.entity;
 
-import dev.glassym.mission3_basic.model.BoardDto;
 import lombok.Builder;
 
 import javax.persistence.*;
@@ -43,9 +42,5 @@ public class BoardEntity {
 
     public String getName() {
         return name;
-    }
-
-    public List<PostEntity> getPostEntityList() {
-        return postEntityList;
     }
 }

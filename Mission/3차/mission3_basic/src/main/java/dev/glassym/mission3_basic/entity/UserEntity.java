@@ -1,9 +1,6 @@
 package dev.glassym.mission3_basic.entity;
 
-import dev.glassym.mission3_basic.model.BoardDto;
-import dev.glassym.mission3_basic.model.UserDto;
 import lombok.Builder;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;

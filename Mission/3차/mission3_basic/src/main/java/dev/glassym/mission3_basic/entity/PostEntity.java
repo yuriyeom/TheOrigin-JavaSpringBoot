@@ -1,8 +1,6 @@
 package dev.glassym.mission3_basic.entity;
 
-import dev.glassym.mission3_basic.model.PostDto;
 import lombok.Builder;
-
 import javax.persistence.*;
 
 @Entity
