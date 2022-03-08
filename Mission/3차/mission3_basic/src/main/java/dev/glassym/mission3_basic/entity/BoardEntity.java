@@ -1,5 +1,6 @@
 package dev.glassym.mission3_basic.entity;
 
+import dev.glassym.mission3_basic.model.BoardDto;
 import lombok.Builder;
 
 import javax.persistence.*;
@@ -7,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Builder
 public class BoardEntity {
 
     @Id
@@ -26,6 +26,17 @@ public class BoardEntity {
     public BoardEntity() {
     }
 
+    @Builder
+    public BoardEntity(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    @Builder
+    public BoardEntity(String name){
+        this.name = name;
+    }
+
     public Long getId() {
         return id;
     }
@@ -34,20 +45,7 @@ public class BoardEntity {
         return name;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPostEntityList(List<PostEntity> postEntityList) {
-        this.postEntityList = postEntityList;
-    }
-
     public List<PostEntity> getPostEntityList() {
         return postEntityList;
     }
-
 }

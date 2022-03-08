@@ -33,16 +33,16 @@ public class PostDao {
     }
 
     public void createPost(int boardId, PostDto dto){
-        PostEntity postEntity = new PostEntity();
-        postEntity.setTitle(dto.getTitle());
-        postEntity.setContent(dto.getContent());
-
         UserEntity userEntity = this.userDao.readUserByWriter(dto.getWriter());
-        postEntity.setUserEntity(userEntity);
-
         BoardEntity boardEntity = this.boardDao.readBoard(boardId);
-        postEntity.setBoardEntity(boardEntity);
 
+        PostEntity postEntity = PostEntity.builder()
+                .id(dto.getId())
+                .title(dto.getTitle())
+                .content(dto.getContent())
+                .userEntity(userEntity)
+                .boardEntity(boardEntity)
+                .build();
         this.postRepository.save(postEntity);
     }
 
@@ -58,6 +58,7 @@ public class PostDao {
         return this.postRepository.findAll().iterator();
     }
 
+    // title, content만 수정할 수 있음
     public void updatePost(int boardId, int postId, PostDto dto){
         Optional<PostEntity> targetEntity = this.postRepository.findById((long) postId);
         if(targetEntity.isEmpty()){
@@ -67,14 +68,14 @@ public class PostDao {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         PostEntity postEntity = targetEntity.get();
-        postEntity.setTitle(
-                dto.getTitle() == null ? postEntity.getTitle() : dto.getTitle()
-        );
-        postEntity.setContent(
-                dto.getContent() == null ? postEntity.getContent() : dto.getContent()
-        );
-
-        this.postRepository.save(postEntity);
+        PostEntity resultEntity = PostEntity.builder()
+                        .id(postEntity.getId())
+                        .title(dto.getTitle() == null ? postEntity.getTitle() : dto.getTitle())
+                        .content(dto.getContent() == null ? postEntity.getContent() : dto.getContent())
+                        .userEntity(postEntity.getUserEntity())
+                        .boardEntity(postEntity.getBoardEntity())
+                        .build();
+        this.postRepository.save(resultEntity);
     }
 
     public void deletePost(int boardId, int postId){

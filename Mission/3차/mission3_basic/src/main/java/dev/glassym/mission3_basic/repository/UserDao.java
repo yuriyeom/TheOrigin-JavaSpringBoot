@@ -25,10 +25,11 @@ public class UserDao {
     }
 
     public void createUser(UserDto dto){
-        UserEntity userEntity = new UserEntity();
-        userEntity.setId(dto.getId());
-        userEntity.setName(dto.getName());
-        userEntity.setPassword(dto.getPassword());
+        UserEntity userEntity = UserEntity.builder()
+                .id(dto.getId())
+                .name(dto.getName())
+                .password(dto.getPassword())
+                .build();
         this.userRepository.save(userEntity);
     }
 
@@ -52,14 +53,19 @@ public class UserDao {
         return userEntity.get();
     }
 
+    // 비밀번호만 수정 가능
     public void updateUser(int id, UserDto dto){
         Optional<UserEntity> targetEntity = this.userRepository.findById((long) id);
         if(targetEntity.isEmpty()){
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
         UserEntity userEntity = targetEntity.get();
-        userEntity.setPassword(dto.getPassword());
-        this.userRepository.save(userEntity);
+        UserEntity resultEntity = UserEntity.builder()
+                .id(userEntity.getId())
+                .name(userEntity.getName())
+                .password(dto.getPassword())
+                .build();
+        this.userRepository.save(resultEntity);
     }
 
     public void deleteUser(int id){
