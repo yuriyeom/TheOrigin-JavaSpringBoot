@@ -1,0 +1,7 @@
+2022-03-12 22:11:56,167 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-12 22:11:56,303 INFO DirectJDKLog [main] Starting service [Tomcat]
+2022-03-12 22:11:56,304 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-12 22:11:56,542 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-12 22:11:56,542 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4313 ms
+2022-03-12 22:11:56,838 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-12 22:11:56,943 INFO Version [main] HHH000412: Hibernate ORM core version 5.6.5.Final

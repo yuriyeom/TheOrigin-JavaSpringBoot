@@ -1,0 +1,5 @@
+2022-03-12 22:01:01,079 INFO Version [main] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-12 22:01:01,374 INFO JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-12 22:01:01,574 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-12 22:01:01,764 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-12 22:01:01,806 INFO Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect

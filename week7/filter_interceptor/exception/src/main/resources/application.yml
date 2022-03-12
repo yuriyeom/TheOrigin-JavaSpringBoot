@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: test
+
+logging:
+  level:
+    root: info
+    dev.glassym.exception.filter: debug
+    dev.glassym.exception.interceptor: trace
