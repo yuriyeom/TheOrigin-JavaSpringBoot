@@ -1,0 +1,10 @@
+2022-03-15 14:04:47,014 INFO FrameworkServlet [Test worker] Initializing Servlet ''
+2022-03-15 14:04:47,060 INFO FrameworkServlet [Test worker] Completed initialization in 9 ms
+2022-03-15 14:04:47,150 INFO StartupInfoLogger [Test worker] Started PostControllerTest in 8.575 seconds (JVM running for 14.833)
+2022-03-15 14:04:47,329 DEBUG TransactionLogFilter [Test worker] [4620d31f] start request: GET { }
+2022-03-15 14:04:47,332 INFO TransactionLogFilter [Test worker]  * response status code: 200
+2022-03-15 14:04:47,365 INFO HeaderLoggingInterceptor [Test worker] start processing of readPostAll
+2022-03-15 14:04:47,574 TRACE HeaderLoggingInterceptor [Test worker] Content-Type: application/json
+2022-03-15 14:04:47,575 INFO HeaderLoggingInterceptor [Test worker] start processing of readPostAll
+2022-03-15 14:04:47,577 INFO TransactionLogFilter [Test worker]  * response status code: 200
+2022-03-15 14:04:47,578 DEBUG TransactionLogFilter [Test worker] [4620d31f], send response: 200

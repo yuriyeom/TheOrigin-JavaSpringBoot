@@ -1,0 +1,11 @@
+2022-03-15 12:49:31,219 INFO MockServletContext [Test worker] Initializing Spring TestDispatcherServlet ''
+2022-03-15 12:49:31,256 INFO FrameworkServlet [Test worker] Initializing Servlet ''
+2022-03-15 12:49:31,279 INFO FrameworkServlet [Test worker] Completed initialization in 5 ms
+2022-03-15 12:49:31,359 INFO StartupInfoLogger [Test worker] Started PostControllerTest in 7.068 seconds (JVM running for 16.369)
+2022-03-15 12:49:31,551 DEBUG TransactionLogFilter [Test worker] [89726bdd] start request: GET { }
+2022-03-15 12:49:31,554 INFO TransactionLogFilter [Test worker]  * response status code: 200
+2022-03-15 12:49:31,593 INFO HeaderLoggingInterceptor [Test worker] start processing of readPost
+2022-03-15 12:49:31,793 TRACE HeaderLoggingInterceptor [Test worker] Content-Type: application/json
+2022-03-15 12:49:31,794 INFO HeaderLoggingInterceptor [Test worker] start processing of readPost
+2022-03-15 12:49:31,796 INFO TransactionLogFilter [Test worker]  * response status code: 200
+2022-03-15 12:49:31,798 DEBUG TransactionLogFilter [Test worker] [89726bdd], send response: 200

@@ -1,0 +1,5 @@
+2022-03-12 22:12:05,359 INFO DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-12 22:12:05,364 INFO FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-03-12 22:12:05,366 INFO FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-03-12 22:12:05,446 DEBUG PostExceptionResolver [http-nio-8080-exec-1] class dev.glassym.exception.exception.PostNotExistException
+2022-03-12 22:12:05,555 DEBUG AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [dev.glassym.exception.exception.PostNotExistException: target post does not exist]

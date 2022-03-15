@@ -1,0 +1,4 @@
+2022-03-12 22:22:19,214 INFO JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-12 22:22:19,431 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-12 22:22:19,671 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-12 22:22:19,700 INFO Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect

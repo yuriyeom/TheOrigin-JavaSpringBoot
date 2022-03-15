@@ -1,0 +1,17 @@
+2022-03-13 01:38:43,314 INFO DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-13 01:38:43,319 INFO FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-03-13 01:38:43,324 INFO FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 4 ms
+2022-03-13 01:38:43,339 DEBUG TransactionLogFilter [http-nio-8080-exec-2] [feed3ba4] start request: POST { }
+2022-03-13 01:38:43,340 INFO TransactionLogFilter [http-nio-8080-exec-2]  * response status code: 200
+2022-03-13 01:38:43,359 INFO HeaderLoggingInterceptor [http-nio-8080-exec-2] start processing of createPost
+2022-03-13 01:38:43,360 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] content-type: application/json
+2022-03-13 01:38:43,360 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] user-agent: PostmanRuntime/7.29.0
+2022-03-13 01:38:43,361 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] accept: */*
+2022-03-13 01:38:43,361 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] postman-token: 3478b264-3f7c-4e03-9cf2-9d824319d420
+2022-03-13 01:38:43,361 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] host: localhost:8080
+2022-03-13 01:38:43,362 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] accept-encoding: gzip, deflate, br
+2022-03-13 01:38:43,362 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] connection: keep-alive
+2022-03-13 01:38:43,362 TRACE HeaderLoggingInterceptor [http-nio-8080-exec-2] content-length: 106
+2022-03-13 01:38:43,882 INFO HeaderLoggingInterceptor [http-nio-8080-exec-2] start processing of createPost
+2022-03-13 01:38:43,885 INFO TransactionLogFilter [http-nio-8080-exec-2]  * response status code: 201
+2022-03-13 01:38:43,885 DEBUG TransactionLogFilter [http-nio-8080-exec-2] [feed3ba4], send response: 201

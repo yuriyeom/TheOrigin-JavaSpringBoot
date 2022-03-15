@@ -1,0 +1,2 @@
+2022-03-12 19:24:45,162 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-12 19:24:45,210 INFO Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
