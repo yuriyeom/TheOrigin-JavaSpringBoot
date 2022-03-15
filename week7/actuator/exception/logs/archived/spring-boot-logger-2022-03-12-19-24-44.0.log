@@ -1,0 +1,4 @@
+2022-03-12 19:24:44,238 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-12 19:24:44,372 INFO Version [main] HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-12 19:24:44,694 INFO JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-12 19:24:44,917 INFO HikariDataSource [main] HikariPool-1 - Starting...

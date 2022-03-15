@@ -1,0 +1,7 @@
+2022-03-15 14:40:38,553 DEBUG TransactionLogFilter [main] [d04c741d] start request: GET { }
+2022-03-15 14:40:38,559 INFO TransactionLogFilter [main]  * response status code: 200
+2022-03-15 14:40:38,577 INFO HeaderLoggingInterceptor [main] start processing of readPost
+2022-03-15 14:40:38,858 TRACE HeaderLoggingInterceptor [main] Content-Type: application/json
+2022-03-15 14:40:38,859 INFO HeaderLoggingInterceptor [main] start processing of readPost
+2022-03-15 14:40:38,862 INFO TransactionLogFilter [main]  * response status code: 200
+2022-03-15 14:40:38,863 DEBUG TransactionLogFilter [main] [d04c741d], send response: 200

@@ -1,0 +1,6 @@
+2022-03-12 19:24:43,506 INFO TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-03-12 19:24:43,575 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-03-12 19:24:43,577 INFO DirectJDKLog [main] Starting service [Tomcat]
+2022-03-12 19:24:43,578 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-12 19:24:43,916 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-03-12 19:24:43,917 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7233 ms

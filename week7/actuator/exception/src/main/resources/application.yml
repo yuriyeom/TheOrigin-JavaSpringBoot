@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: test
+
+#logging:
+#  level:
+#    root: info
+#    dev.glassym.exception.filter: debug
+#    dev.glassym.exception.interceptor: trace
+
+
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: health,info,loggers,shutdown,prometheus
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+      show-components: always
+    info:
+      enabled: true
+    loggers:
+      enabled: true
+    shutdown:
+      enabled: true
+    prometheus:
+      enabled: true

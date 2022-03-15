@@ -1,0 +1,4 @@
+2022-03-15 15:30:26,366 INFO MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2022-03-15 15:30:26,397 INFO FrameworkServlet [main] Initializing Servlet ''
+2022-03-15 15:30:26,405 INFO FrameworkServlet [main] Completed initialization in 5 ms
+2022-03-15 15:30:26,549 INFO StartupInfoLogger [main] Started BoardControllerTest in 7.148 seconds (JVM running for 9.081)
