@@ -18,8 +18,7 @@
 
     <div sec:authorize="isAuthenticated()">
         <h3 >
-            반갑습니다.<!--/*@thymesVar id="is_shop_owner" type="boolean"*/-->
-            <span th:text="'Shop Owner'" th:if="${#authentication.is_shop_owner}"></span>  <span sec:authentication="name"></span>님!
+            반갑습니다.<span sec:authentication="name"></span>님!
         </h3>
         <form th:action="@{/user/logout}" method="post">
             <input type="submit" th:value="로그아웃">
