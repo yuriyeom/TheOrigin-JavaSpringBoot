@@ -48,7 +48,9 @@ Update 후 Read
 
 ## 3차 미션 스크린샷
 ### Basic
-
+<details>
+<summary>펼쳐보기</summary>
+<div markdown="1">
 - **PostEntity와 BoardEntity 관계** 
    - PostEntity  
 ![PostEntity](https://user-images.githubusercontent.com/43941336/157228904-cdbb9fe1-86ce-497e-8fbe-41a3361dbdda.png)   
@@ -151,3 +153,122 @@ User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 �
    
    ShopReviewEntity - ShopEntity : 다대일 양방향   
    ShopReviewEntity - UserEntity : 다대일 단방향   
+
+</div>
+</details>
+
+## 3차 미션 스크린샷
+### Basic
+
+- **UserEntity**   
+   ``` java
+    @Entity
+    @Table(name = "community_user")
+    public class UserEntity {
+       @Id
+       @GeneratedValue(strategy = GenerationType.IDENTITY)
+       private Long id;
+
+       private String username;
+       private String password;
+
+       @ManyToOne(
+               targetEntity = AreaEntity.class,
+               fetch = FetchType.LAZY
+       )
+       @JoinColumn(name = "area_id")
+       private AreaEntity residence;
+
+       private Boolean isShopOwner;
+         
+       ...
+         
+    }
+   ```
+- **CommunityUserDetailsService**   
+   ``` java
+    @Service
+    public class CommunityUserDetailsService implements UserDetailsService {
+       private final UserRepository userRepository;
+       private final PasswordEncoder passwordEncoder;
+
+       public CommunityUserDetailsService(
+               @Autowired UserRepository userRepository
+       ){
+           this.userRepository = userRepository;
+       }
+
+       @Override
+       public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+           Optional<UserEntity> userEntity = this.userRepository.findByUsername(username);
+           if(userEntity.isEmpty()){ // 해당하는 사용자가 없을시
+               throw new UsernameNotFoundException("username not found");
+           }
+           // UserEntity를 UserDetails로 반환
+           return new User(username, userEntity.get().getPassword(), new ArrayList<>());
+       }
+    }
+   ```   
+- **UserEntity**      
+   ``` java
+   @Controller
+   @RequestMapping("user")
+   public class UserController {
+       private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+       private final UserRepository userRepository;
+       private final PasswordEncoder passwordEncoder;
+       private final AreaRepository areaRepository;
+
+       public UserController(
+               @Autowired UserRepository userRepository,
+               @Autowired PasswordEncoder passwordEncoder,
+               @Autowired AreaRepository areaRepository
+       ) {
+           this.passwordEncoder = passwordEncoder;
+           this.userRepository = userRepository;
+           this.areaRepository = areaRepository;
+       }
+
+       @GetMapping("login")
+       public String login(){
+           return "login-form";
+       }
+
+       @GetMapping("signup")
+       public String signup(){
+           return "signup-form";
+       }
+
+       @PostMapping("signup")
+       public String signupPost(
+               @RequestParam("username") String username,
+               @RequestParam("password") String password,
+               @RequestParam("password_check") String passwordCheck,
+               @RequestParam(value = "is_shop_owner", required = false) boolean isShopOwner
+       ){
+           if(!password.equals(passwordCheck)){ // 비밀번호 확인이 틀릴 시
+               throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+           }
+           UserEntity userEntity = new UserEntity();
+           userEntity.setUsername(username);
+           userEntity.setPassword(passwordEncoder.encode(password));
+           // residence는 미리 생성해둔 3가지 데이터 중 랜덤으로 들어가게 했다. (id: 1~3)
+           Optional<AreaEntity> residence = this.areaRepository.findById((long) (Math.random() * 3 + 1));
+           userEntity.setResidence(residence.get());
+           userEntity.setShopOwner(isShopOwner);
+           logger.info("is shop owner : " + isShopOwner);
+           this.userRepository.save(userEntity);
+           return "redirect:/home";
+       }
+
+   ```
+- **회원가입 과정**   
+   a. 회원가입 form   
+   ![image](https://user-images.githubusercontent.com/43941336/159295482-fd6a5195-7405-4ae7-9701-7906f951f20d.png)   
+   b. 회원가입 후 isShopOwner 값을 로그로 남겼다.   
+   ![image](https://user-images.githubusercontent.com/43941336/159295560-3896d952-afc9-42ab-bce0-6be0fb72ef76.png)   
+   c. DB에 추가된 데이터 확인   
+   ![image](https://user-images.githubusercontent.com/43941336/159295581-4dcfc0d0-cfe9-4ec5-bf71-fd73e3e944c2.png)   
+   d. 로그인 후 홈 화면   
+   ![image](https://user-images.githubusercontent.com/43941336/159295606-57e4b10e-f5d3-43a7-a22f-28ea6813f95e.png)   
+
