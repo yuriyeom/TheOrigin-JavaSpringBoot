@@ -13,8 +13,8 @@ spring:
       client:
         registration:
           naver:
-            client-id: SalLTwbXg83T2wLg3RHg
-            client-secret: vIYyoz3nko
+            client-id: 
+            client-secret: 
             redirect-uri: "{baseUrl}/{action}/oauth2/code/{registrationId}"
             authorization-grant-type: authorization_code
             scope: email
