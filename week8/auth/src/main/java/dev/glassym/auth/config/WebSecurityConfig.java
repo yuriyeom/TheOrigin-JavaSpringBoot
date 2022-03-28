@@ -1,6 +1,7 @@
 package dev.glassym.auth.config;
 
 import dev.glassym.auth.infra.CustomUserDetailsService;
+import dev.glassym.auth.infra.NaverOAuth2Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,23 +17,18 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableWebSecurity // 의존성 spring-security의 설정을 조작할 준비가 됐다.
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     private  final UserDetailsService userDetailsService;
+    private final NaverOAuth2Service naverOAuth2Service;
 
     public WebSecurityConfig(
-            @Autowired CustomUserDetailsService customUserDetailsService
+            @Autowired CustomUserDetailsService customUserDetailsService,
+            @Autowired NaverOAuth2Service naverOAuth2Service
             ) {
-        userDetailsService = customUserDetailsService;
+        this.userDetailsService = customUserDetailsService;
+        this.naverOAuth2Service = naverOAuth2Service;
     }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//        auth.inMemoryAuthentication() // 메모리상에서 유저 검증을 하겠다.
-//                .withUser("user1") // 유저 추가
-//                .password(passwordEncoder().encode("user1pass"))
-//                .roles("USER")
-//                .and()
-//                .withUser("admin1")
-//                .password(passwordEncoder().encode("admin1pass"))
-//                .roles("ADMIN");
         auth.userDetailsService(this.userDetailsService);
     }
 
@@ -40,7 +36,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/home/**", "/user/**")
+                .antMatchers("/home/**", "/user/login", "/user/signup")
                 .anonymous()
                 .anyRequest()
                 .authenticated()
@@ -49,6 +45,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginPage("/user/login")
                 .defaultSuccessUrl("/home")
                 .permitAll()
+            .and()
+                .oauth2Login()
+                    .userInfoEndpoint()
+                    .userService(this.naverOAuth2Service)
+                .and()
+                    .defaultSuccessUrl("/home")
             .and()
                 .logout()
                 .logoutUrl("/user/logout")
