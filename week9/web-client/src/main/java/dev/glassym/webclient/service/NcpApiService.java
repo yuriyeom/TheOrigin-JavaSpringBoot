@@ -24,7 +24,7 @@ public class NcpApiService {
     @Value("${ncp.api.access-key:stub-api-key}")
     private  String accessKey;
 
-    @Value("${ncp.api.secret-key:stub-scret-key}")
+    @Value("${ncp.api.secret-key:stub-secret-key}")
     private  String secretKey;
 
     private static final String ncpHeaderNameTimestamp = "x-ncp-apigw-timestamp";
