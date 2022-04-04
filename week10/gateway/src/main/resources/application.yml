@@ -1,0 +1,23 @@
+server:
+  port: 8000
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: community-shop
+#          uri: http://localhost:8081
+#          predicates:
+#            - Path=/api/shop/**
+#          filters:
+#            - RewritePath=/api/(?<path>.*), /$\{path}
+#            - name : Logging
+#              args:
+#                simpleUid: true
+#                inSeconds: true
+#
+
+
+logging:
+  level:
+    dev.glassym.gateway.filter: trace
