@@ -162,9 +162,10 @@ User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 �
 
 <details>
 <summary>펼쳐보기</summary>
-<div markdown="1">
-- **UserEntity**   
-   ``` java
+<div markdown="1">   
+   
+- **UserEntity**      
+   ```java
     @Entity
     @Table(name = "community_user")
     public class UserEntity {
@@ -282,8 +283,134 @@ User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 �
 ### Basic
 - **[index.html] Geolocation API 사용**   
    
-- **[AreaController] 위도, 경도 인자를 받는 RequestMapping 메소드**   
-- **[AreaService] 위도, 경도 인자로부터 가장 가까운 Area를 찾는 메소드**   
+   ```html
+   <!DOCTYPE html>
+   <html
+           lang="en"
+           xmlns:th="http://www.thymeleaf.org"
+           xmlns:sec="http://www.w3.org/1999/xhtml"
+   >
+   <head>
+       <meta charset="UTF-8">
+       <title>Simple Home</title>
+   </head>
+   <body>
+       <div sec:authorize="isAnonymous()">
+           <h2>Hello World</h2>
+           <button onclick="location.href = '/user/login'">로그인</button>
+           <button onclick="location.href = '/user/signup'">회원가입</button>
+
+       </div>
+       <div sec:authorize="isAuthenticated()">
+           <h3 >
+               반갑습니다. <span sec:authentication="name"></span>님!
+           </h3><br>
+          <!-- 버튼 클릭시 getLocation()를 호출한다. -->
+           <input type="button" onclick="getLocation()" value="위도/경도 확인"> 
+           <form th:action="@{/user/logout}" method="post">
+               <input type="submit" th:value="로그아웃">
+           </form>
+       </div>
+   </body>
+   <script>
+       function getLocation() {
+           if (navigator.geolocation) {
+               navigator.geolocation.getCurrentPosition(showPosition);
+           } else {
+               alert("Geolocation is not supported by this browser.");
+           }
+       }
+
+       function showPosition(position) {
+           alert(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
+       }
+
+       // await fetch(`/area/get-location-info?latitude=${latitude}&longitude=${longitude}`);
+
+   </script>
+   </html>
+   ```
    
+  - 로그인 성공했을 때 화면   
+   ![image](https://user-images.githubusercontent.com/43941336/161748874-bbb1bd47-c9b4-40d3-9a4c-b3b417d4acb1.png)   
+   - 버튼 클릭시 나타나는 현재 위치의 위도, 경도를 담은 Alert
+   ![image](https://user-images.githubusercontent.com/43941336/161749301-0bc7fe30-5063-4b03-a404-fea9184013a9.png)   
+   - 위도, 경도를 담은 경로로 HTTP 요청을 보내는 기능은 구현하지 못했습니다.   
+
+- **[AreaController] 위도, 경도 인자를 받는 RequestMapping 메소드**   
+   ```java
+    @GetMapping("/get-location-info")
+    public AreaDto inputLatLong(
+            @RequestParam("latitude") Double latitude,
+            @RequestParam("longitude") Double longitude
+    ){
+        return this.areaService.findClosestArea(latitude, longitude);
+    }
+   ```
+- **[AreaService] 위도, 경도 인자로부터 가장 가까운 Area를 찾는 메소드**   
+   ```java
+    public AreaDto findClosestArea(Double lat, Double lon){
+        List<AreaDto> areaDtoList = this.readAreaAll(); // 저장된 모든 Area를 불러온다.
+        Double min = 1000.0; // 최단 거리값
+        long find = 0; // 가장 가까운 Area의 id
+   
+        for(AreaDto area : areaDtoList){ // 리스트의 모든 Area를 돌면서 가장 가까운 Area를 찾는다.
+            Double tmpLat = area.getLatitude();
+            Double tmpLon = area.getLongitude();
+
+            Double value = haversine(lat, lon, tmpLat, tmpLon); // 두 지점 간 거리 계산
+            if(min > value){
+                min = value;
+                find = area.getId();
+            }
+        }
+        // 가장 가까운 Area의 Entity를 찾는다.
+        Optional<AreaEntity> target = this.areaRepository.findById(find);
+        if(target.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND);
+
+        // 찾은 Entity를 Dto로 변환한다.
+        AreaDto areaDto = new AreaDto();
+        areaDto.setId(find);
+        areaDto.setRegionMajor(target.get().getRegionMajor());
+        areaDto.setRegionMinor(target.get().getRegionMinor());
+        areaDto.setRegionPatch(target.get().getRegionPatch());
+        areaDto.setLatitude(target.get().getLatitude());
+        areaDto.setLongitude(target.get().getLongitude());
+        logger.info(areaDto.toString());
+   
+        return areaDto;
+    }
+   ```
+   
+   ```java
+    // 두 지점의 거리를 위도, 경도로 계산하는 함수
+    public static final double R = 6372.8; // In kilometers
+    public static double haversine(double lat1, double lon1, double lat2, double lon2) {
+        double dLat = Math.toRadians(lat2 - lat1);
+        double dLon = Math.toRadians(lon2 - lon1);
+        lat1 = Math.toRadians(lat1);
+        lat2 = Math.toRadians(lat2);
+
+        double a = Math.pow(Math.sin(dLat / 2),2) + Math.pow(Math.sin(dLon / 2),2) * Math.cos(lat1) * Math.cos(lat2);
+        double c = 2 * Math.asin(Math.sqrt(a));
+        return R * c;
+    }
+
+    // This function converts decimal degrees to radians
+    private static double deg2rad(double deg) {
+        return (deg * Math.PI / 180.0);
+    }
+
+    // This function converts radians to decimal degrees
+    private static double rad2deg(double rad) {
+        return (rad * 180 / Math.PI);
+    }
+   ```
+- POSTMAN 테스트
+   ![image](https://user-images.githubusercontent.com/43941336/161750756-d7606a5b-73dc-48dc-b2af-b1ab7bdbaa10.png)   
+   - 요청 URL : http://localhost:8080/area/get-location-info?latitude=37.51148310935&longitude=127.06033711446   
+   - 테스트로 넣은 값은 삼성 코엑스입니다. 그 결과 삼성동이 가장 가까운 곳으로 나타났습니다.
+   
+
    
    
