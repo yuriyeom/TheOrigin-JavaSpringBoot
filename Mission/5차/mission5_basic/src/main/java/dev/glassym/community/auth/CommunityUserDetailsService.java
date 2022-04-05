@@ -49,10 +49,8 @@ public class CommunityUserDetailsService implements UserDetailsService {
         userEntity.setUsername(username);
         userEntity.setPassword(passwordEncoder.encode(password));
 
-//        AreaEntity randomArea = this.randomArea();
-//        userEntity.setResidence(randomArea);
-
-        userEntity.setResidence(null);
+        AreaEntity randomArea = this.randomArea();
+        userEntity.setResidence(randomArea);
 
         userEntity.setShopOwner(isShopOwner);
 

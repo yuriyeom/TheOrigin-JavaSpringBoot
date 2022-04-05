@@ -36,12 +36,13 @@ public class AreaController {
     }
 
     @GetMapping("/get-location-info")
-    public void inputLatLong(
+    public AreaDto inputLatLong(
             @RequestParam("latitude") Double latitude,
             @RequestParam("longitude") Double longitude
     ){
         logger.info("inputLatLong in AreaController");
         logger.info("latitude : {} longitude : {}", latitude,longitude);
+        return this.areaService.findClosestArea(latitude, longitude);
     }
 
 }
