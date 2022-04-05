@@ -34,5 +34,14 @@ public class AreaController {
     public ResponseEntity<Collection<AreaDto>> readAreaAll() {
         return ResponseEntity.ok(this.areaService.readAreaAll());
     }
-    
+
+    @GetMapping("/get-location-info")
+    public void inputLatLong(
+            @RequestParam("latitude") Double latitude,
+            @RequestParam("longitude") Double longitude
+    ){
+        logger.info("inputLatLong in AreaController");
+        logger.info("latitude : {} longitude : {}", latitude,longitude);
+    }
+
 }

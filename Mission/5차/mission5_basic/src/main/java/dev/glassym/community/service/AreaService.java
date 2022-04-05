@@ -51,4 +51,9 @@ public class AreaService {
         areaRepository.findAll().forEach(areaEntity -> areaDtoList.add(new AreaDto(areaEntity)));
         return areaDtoList;
     }
+
+    public AreaDto checkClosestArea(Double lat, Double lon){
+        // lat과 lon으로 가장 가까운 area 반환
+        return null;
+    }
 }
