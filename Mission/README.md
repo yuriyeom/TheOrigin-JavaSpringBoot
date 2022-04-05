@@ -160,6 +160,9 @@ User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 �
 ## 4차 미션 스크린샷
 ### Basic
 
+<details>
+<summary>펼쳐보기</summary>
+<div markdown="1">
 - **UserEntity**   
    ``` java
     @Entity
@@ -272,3 +275,15 @@ User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 �
    d. 로그인 후 홈 화면   
    ![image](https://user-images.githubusercontent.com/43941336/159295606-57e4b10e-f5d3-43a7-a22f-28ea6813f95e.png)   
 
+</div>
+</details>   
+   
+## 5차 미션 스크린샷   
+### Basic
+- **[index.html] Geolocation API 사용 **   
+   
+- **[AreaController] 위도, 경도 인자를 받는 RequestMapping 메소드**   
+- **[AreaService] 위도, 경도 인자로부터 가장 가까운 Area를 찾는 메소드 **   
+   
+   
+   
