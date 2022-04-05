@@ -280,10 +280,10 @@ User 분류로 일반 사용자, 상점 주인 중 하나의 값을 가질 수 �
    
 ## 5차 미션 스크린샷   
 ### Basic
-- **[index.html] Geolocation API 사용 **   
+- **[index.html] Geolocation API 사용**   
    
 - **[AreaController] 위도, 경도 인자를 받는 RequestMapping 메소드**   
-- **[AreaService] 위도, 경도 인자로부터 가장 가까운 Area를 찾는 메소드 **   
+- **[AreaService] 위도, 경도 인자로부터 가장 가까운 Area를 찾는 메소드**   
    
    
    
